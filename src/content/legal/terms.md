@@ -8,7 +8,7 @@ slug: terms
 
 Effective date: November 2, 2026
 
-Please read these Terms carefully. They are a legal agreement between you and **DesiDots** ("we", "us"), 2401 Windy Hill Road, Marietta, GA 30067, USA. They cover your use of the DesiDots mobile app and website (the "Service"). **They contain an agreement to resolve disputes by individual arbitration and a waiver of class actions (section 20).** By creating an account, placing an order, or using the Service, you agree to these Terms and to our [Privacy Policy](/privacy/), [Refund and Cancellation Policy](/refunds/) and [Shipping Policy](/shipping/). If you do not agree, do not use the Service.
+Please read these Terms carefully. They are a legal agreement between you and **DesiDots** ("we", "us"). They cover your use of the DesiDots mobile app and website (the "Service"). **They contain an agreement to resolve disputes by individual arbitration and a waiver of class actions (section 20).** By creating an account, placing an order, or using the Service, you agree to these Terms and to our [Privacy Policy](/privacy/), [Refund and Cancellation Policy](/refunds/) and [Shipping Policy](/shipping/). If you do not agree, do not use the Service.
 
 ## 1. What DesiDots is, and is not
 DesiDots is an online marketplace for the South Asian community in the USA. It lists stores in the USA and in India, community events and tickets, and directories of professionals such as lawyers, tax professionals and wedding vendors.
@@ -116,10 +116,10 @@ These Terms are governed by the laws of the **State of Alabama**, USA, and the F
 - **If a part is invalid**, the rest still applies. **If we do not enforce a right**, that does not waive it.
 - **Assignment.** You may not transfer your account or rights. We may transfer ours as part of a business sale or reorganisation.
 - **Events outside our control.** We are not liable for delay or failure caused by events beyond our reasonable control, such as natural events, carrier or customs delays, strikes, power or internet failures, or acts of government.
-- **Notices.** We may give you notice by email or in the app. You can give us notice at support@desidots.com or at the address above.
+- **Notices.** We may give you notice by email or in the app. You can give us notice at support@desidots.com.
 - **App store terms.** If you got the app from Apple or Google, these Terms are between you and us only. Apple and Google are not responsible for the app, its support, or claims about it. They are third-party beneficiaries who can enforce these Terms against you. You must also follow the store's own terms.
 - **No agency.** Nothing here makes you our partner, employee or agent, or makes us yours. Vendors are not our employees.
 
 ## 23. Contact
-DesiDots, 2401 Windy Hill Road, Marietta, GA 30067, USA. Email: support@desidots.com. Website: https://www.desidots.com  
+Email: support@desidots.com. Website: https://www.desidots.com  
 Customer support: https://www.desidots.com/contact/.

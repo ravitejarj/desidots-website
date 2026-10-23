@@ -70,5 +70,5 @@ Parcels from India pass through US customs. Customs may inspect, delay, hold, re
 Please contact us first. If you instead dispute a charge with your bank, we give the bank our records. If a charge you disputed was valid, or you were already refunded, we may close your account and recover the amount. We may refuse refunds and close accounts where we find repeated untrue claims or abuse of this policy.
 
 ## 10. Contact
-support@desidots.com. DesiDots, 2401 Windy Hill Road, Marietta, GA 30067, USA.  
+support@desidots.com.  
 Customer support: https://www.desidots.com/contact/.

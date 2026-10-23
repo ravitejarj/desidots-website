@@ -34,4 +34,4 @@ Records of **orders and payments** are kept for **7 years** because tax, account
 If you have an order that is on its way, or a refund that is still being paid, finish or wait for it first. The app tells you. Seller and administrator accounts are closed by DesiDots: write to support@desidots.com.
 
 ## Questions
-privacy@desidots.com. DesiDots, 2401 Windy Hill Road, Marietta, GA 30067, USA. See also our [Privacy Policy](/privacy/).
+privacy@desidots.com. See also our [Privacy Policy](/privacy/).
