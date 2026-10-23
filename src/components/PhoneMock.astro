@@ -1,54 +1,83 @@
 ---
 import Icon from './Icon.astro';
 ---
-<!-- A drawn preview of the app home screen (swap for real screenshots once the app is published). -->
-<div class="relative mx-auto w-full max-w-[300px]" aria-hidden="true">
-  <div class="absolute inset-0 translate-y-6 rounded-[44px] bg-gradient-to-tr from-brand-500/25 to-amber-400/10 blur-2xl"></div>
-  <div class="relative rounded-[44px] bg-slate-900 p-3 shadow-2xl ring-1 ring-slate-800/80">
-    <div class="overflow-hidden rounded-[34px] border border-slate-100 bg-white">
-      <div class="flex items-center justify-between px-6 pb-2 pt-3 text-[11px] font-semibold text-slate-700">
-        <span>9:41</span>
-        <span class="-mt-1 h-4 w-20 rounded-full bg-slate-900"></span>
-        <span class="w-6"></span>
+<!-- A 3D preview of the app (drawn, not a screenshot). The phone turns toward the pointer; the cards float at different depths. -->
+<div class="scene relative mx-auto w-full max-w-[420px] py-6" data-scene aria-hidden="true">
+  <div class="stage relative mx-auto w-[290px] sm:w-[300px]" data-stage>
+
+    <!-- soft shadow on the "floor" -->
+    <div class="layer absolute inset-x-6 -bottom-6 h-10" style="--z:-60px"><div class="h-full w-full rounded-[50%] bg-brand-600/25 blur-2xl"></div></div>
+
+    <!-- the phone -->
+    <div class="layer relative" style="--z:0px">
+      <div class="absolute inset-0 translate-y-6 rounded-[44px] bg-gradient-to-tr from-brand-500/25 to-amber-400/10 blur-2xl"></div>
+      <div class="relative rounded-[44px] bg-slate-900 p-3 shadow-2xl ring-1 ring-slate-800/80">
+        <div class="overflow-hidden rounded-[34px] border border-slate-100 bg-white">
+          <div class="flex items-center justify-between px-6 pb-2 pt-3 text-[11px] font-semibold text-slate-700">
+            <span>9:41</span>
+            <span class="-mt-1 h-4 w-20 rounded-full bg-slate-900"></span>
+            <span class="w-6"></span>
+          </div>
+          <div class="flex items-center justify-between border-b border-slate-50 px-5 py-3">
+            <div class="flex items-center gap-2">
+              <img src="/logo.png" alt="" class="h-7 w-7 rounded-md" />
+              <div>
+                <div class="text-[9px] font-semibold uppercase leading-tight tracking-wider text-slate-400">Deliver to</div>
+                <div class="text-xs font-bold leading-tight text-slate-800">Atlanta, GA</div>
+              </div>
+            </div>
+            <span class="flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-slate-700"><Icon name="bell" class="h-4 w-4" /></span>
+          </div>
+          <div class="space-y-3 bg-slate-50/70 p-4">
+            <div class="shine rounded-2xl bg-gradient-to-r from-brand-600 to-amber-500 p-3.5 text-white shadow-sm">
+              <div class="text-[10px] font-semibold uppercase tracking-wider text-brand-100">Direct from India</div>
+              <div class="mt-0.5 text-sm font-bold leading-snug">Handloom, jewellery and festival gifts</div>
+              <div class="mt-2 inline-block rounded-full bg-white/20 px-2 py-0.5 text-[10px] font-medium">Shipped by air, tracked</div>
+            </div>
+            <div class="flex items-center gap-3 rounded-xl border border-slate-100 bg-white p-3">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-brand-100 text-brand-600"><Icon name="store" /></span>
+              <div class="min-w-0 flex-1">
+                <div class="truncate text-xs font-semibold text-slate-800">Silver Jhumka Earrings</div>
+                <div class="text-[10px] text-slate-500">Jaipur Gems &amp; Jewels</div>
+              </div>
+              <div class="text-xs font-bold text-slate-900">$20.99</div>
+            </div>
+            <div class="flex items-center gap-3 rounded-xl border border-slate-100 bg-white p-3">
+              <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-amber-100 text-amber-700"><Icon name="ticket" /></span>
+              <div class="min-w-0 flex-1">
+                <div class="truncate text-xs font-semibold text-slate-800">Garba Night</div>
+                <div class="text-[10px] text-slate-500">Tickets on your phone</div>
+              </div>
+              <span class="rounded-md bg-brand-50 px-2 py-0.5 text-[10px] font-semibold text-brand-600">Tickets</span>
+            </div>
+            <div class="flex items-center justify-around border-t border-slate-100 pt-2 text-[10px] text-slate-400">
+              <div class="flex flex-col items-center font-semibold text-brand-600"><Icon name="heart" class="h-4 w-4" />Home</div>
+              <div class="flex flex-col items-center"><Icon name="box" class="h-4 w-4" />Orders</div>
+              <div class="flex flex-col items-center"><Icon name="ticket" class="h-4 w-4" />Events</div>
+              <div class="flex flex-col items-center"><Icon name="shield" class="h-4 w-4" />Profile</div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="flex items-center justify-between border-b border-slate-50 px-5 py-3">
-        <div class="flex items-center gap-2">
-          <img src="/logo.png" alt="" class="h-7 w-7 rounded-md" />
-          <div>
-            <div class="text-[9px] font-semibold uppercase leading-tight tracking-wider text-slate-400">Deliver to</div>
-            <div class="text-xs font-bold leading-tight text-slate-800">Atlanta, GA</div>
-          </div>
-        </div>
-        <span class="flex h-7 w-7 items-center justify-center rounded-full bg-slate-100 text-slate-700"><Icon name="bell" class="h-4 w-4" /></span>
+    </div>
+
+    <!-- floating notification cards, in front of the phone -->
+    <div class="layer absolute -left-6 -top-2 hidden sm:block lg:-left-32" style="--z:110px">
+      <div class="floaty glass flex items-center gap-3 rounded-2xl px-4 py-3" style="--t:6.5s">
+        <span class="flex h-9 w-9 items-center justify-center rounded-full bg-emerald-100 text-emerald-700"><Icon name="truck" class="h-5 w-5" /></span>
+        <div><div class="text-xs font-bold text-slate-900">Your order shipped</div><div class="text-[10px] text-slate-500">FedEx, tracking added</div></div>
       </div>
-      <div class="space-y-3 bg-slate-50/70 p-4">
-        <div class="rounded-2xl bg-gradient-to-r from-brand-600 to-amber-500 p-3.5 text-white shadow-sm">
-          <div class="text-[10px] font-semibold uppercase tracking-wider text-brand-100">Direct from India</div>
-          <div class="mt-0.5 text-sm font-bold leading-snug">Handloom, jewellery and festival gifts</div>
-          <div class="mt-2 inline-block rounded-full bg-white/20 px-2 py-0.5 text-[10px] font-medium">Shipped by air, tracked</div>
-        </div>
-        <div class="flex items-center gap-3 rounded-xl border border-slate-100 bg-white p-3">
-          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-brand-100 text-brand-600"><Icon name="store" /></span>
-          <div class="min-w-0 flex-1">
-            <div class="truncate text-xs font-semibold text-slate-800">Silver Jhumka Earrings</div>
-            <div class="text-[10px] text-slate-500">Jaipur Gems &amp; Jewels</div>
-          </div>
-          <div class="text-xs font-bold text-slate-900">$20.99</div>
-        </div>
-        <div class="flex items-center gap-3 rounded-xl border border-slate-100 bg-white p-3">
-          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-amber-100 text-amber-700"><Icon name="ticket" /></span>
-          <div class="min-w-0 flex-1">
-            <div class="truncate text-xs font-semibold text-slate-800">Garba Night</div>
-            <div class="text-[10px] text-slate-500">Tickets on your phone</div>
-          </div>
-          <span class="rounded-md bg-brand-50 px-2 py-0.5 text-[10px] font-semibold text-brand-600">Tickets</span>
-        </div>
-        <div class="flex items-center justify-around border-t border-slate-100 pt-2 text-[10px] text-slate-400">
-          <div class="flex flex-col items-center font-semibold text-brand-600"><Icon name="heart" class="h-4 w-4" />Home</div>
-          <div class="flex flex-col items-center"><Icon name="box" class="h-4 w-4" />Orders</div>
-          <div class="flex flex-col items-center"><Icon name="ticket" class="h-4 w-4" />Events</div>
-          <div class="flex flex-col items-center"><Icon name="shield" class="h-4 w-4" />Profile</div>
-        </div>
+    </div>
+    <div class="layer absolute -right-3 top-[44%] hidden sm:block lg:-right-24" style="--z:140px">
+      <div class="floaty glass flex items-center gap-3 rounded-2xl px-4 py-3" style="--t:7.5s;--dl:-2s">
+        <span class="flex h-9 w-9 items-center justify-center rounded-full bg-brand-100 text-brand-600"><Icon name="card" class="h-5 w-5" /></span>
+        <div><div class="text-xs font-bold text-slate-900">Refund sent</div><div class="text-[10px] text-slate-500">$16.49 to your card</div></div>
+      </div>
+    </div>
+    <div class="layer absolute -left-2 bottom-12 hidden sm:block lg:-left-16" style="--z:90px">
+      <div class="floaty glass flex items-center gap-3 rounded-2xl px-4 py-3" style="--t:8s;--dl:-4s">
+        <span class="flex h-9 w-9 items-center justify-center rounded-full bg-amber-100 text-amber-700"><Icon name="star" class="h-5 w-5" /></span>
+        <div><div class="text-xs font-bold text-slate-900">Rate your order</div><div class="text-[10px] text-slate-500">Tell others how it went</div></div>
       </div>
     </div>
   </div>

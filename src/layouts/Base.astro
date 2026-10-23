@@ -24,6 +24,7 @@ const org = {
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <script is:inline>document.documentElement.classList.add('js');</script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -46,8 +47,10 @@ const org = {
   </head>
   <body>
     <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-brand-600 focus:px-4 focus:py-2 focus:text-white">Skip to content</a>
+    <div id="progress" aria-hidden="true"></div>
     <Header />
     <main id="main"><slot /></main>
     <Footer />
+    <script>import '../scripts/motion.ts';</script>
   </body>
 </html>

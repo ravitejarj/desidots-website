@@ -6,12 +6,10 @@ import PhoneMock from '../components/PhoneMock.astro';
 const early = 'mailto:support@desidots.com?subject=DesiDots%20early%20access&body=Hi%2C%20please%20tell%20me%20when%20the%20DesiDots%20app%20is%20available.';
 const sell = 'mailto:support@desidots.com?subject=I%20want%20to%20sell%20on%20DesiDots&body=Store%20name%3A%0AWhere%20you%20ship%20from%3A%0AWhat%20you%20sell%3A';
 
-const features = [
-  { icon: 'store', title: 'Stores across the USA', text: 'Shop Indian stores that ship anywhere in the United States, from pantry staples and farm products to gifts and clothing.' },
-  { icon: 'plane', title: 'Direct from India', text: 'Order handloom, jewellery, spices and festival essentials from sellers in India. You see the price in US dollars and the shipping fee before you pay.' },
-  { icon: 'ticket', title: 'Events and tickets', text: 'Find community events near you, from Garba nights to concerts and melas, and keep your tickets on your phone.' },
-  { icon: 'scale', title: 'Trusted professionals', text: 'Browse lawyers, tax professionals and wedding vendors who understand the community, with their contact details in one place.' },
-] as const;
+const line1 = 'India at your doorstep,'.split(' ');
+const line2 = 'wherever you are in the US.'.split(' ');
+
+const categories = ['Pantry and spices', 'Handloom and sarees', 'Jewellery', 'Ayurveda and wellness', 'Festival essentials', 'Gifts', 'Farm products', 'Garba and community events', 'Lawyers', 'Tax professionals', 'Wedding vendors'];
 
 const steps = [
   { n: '1', title: 'Browse and add to cart', text: 'Pick from one store per order. Sizes, stock and prices are shown clearly.' },
@@ -37,89 +35,143 @@ const faqs = [
 <Base>
   <!-- Hero -->
   <section class="relative overflow-hidden">
-    <div class="pointer-events-none absolute -top-40 right-[-10%] -z-10 h-[620px] w-[620px] rounded-full bg-gradient-to-tr from-brand-100 via-orange-50 to-transparent blur-3xl"></div>
-    <div class="container-x grid items-center gap-14 pb-20 pt-14 md:pt-20 lg:grid-cols-12 lg:pb-28">
+    <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="container-x grid items-center gap-10 pb-16 pt-12 md:pt-20 lg:grid-cols-12 lg:pb-24">
       <div class="lg:col-span-7">
-        <p class="mb-6 inline-flex items-center gap-2 rounded-full border border-brand-200/70 bg-brand-50 px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-brand-700">
+        <p data-reveal class="mb-6 inline-flex items-center gap-2 rounded-full border border-brand-200/70 bg-white/70 px-3 py-1.5 text-xs font-semibold uppercase tracking-wide text-brand-700 backdrop-blur">
           <span class="h-2 w-2 animate-pulse rounded-full bg-brand-500"></span> Coming soon to Google Play and the App Store
         </p>
-        <h1 class="text-4xl font-extrabold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl 2xl:text-7xl">
-          India at your doorstep,<br />
-          <span class="bg-gradient-to-r from-brand-600 via-orange-500 to-amber-500 bg-clip-text text-transparent">wherever you are in the US.</span>
+        <h1 class="words text-4xl font-extrabold leading-[1.08] tracking-tight sm:text-5xl lg:text-6xl 2xl:text-7xl" aria-label="India at your doorstep, wherever you are in the US.">
+          <span aria-hidden="true">
+            {line1.map((w, i) => <><span class="w"><span style={`--i:${i}`}>{w}</span></span>{' '}</>)}
+            <br />
+            {line2.map((w, i) => <><span class="w"><span style={`--i:${i + line1.length}`}><span class="bg-gradient-to-r from-brand-600 via-orange-500 to-amber-500 bg-clip-text text-transparent">{w}</span></span></span>{' '}</>)}
+          </span>
         </h1>
-        <p class="mt-6 max-w-xl text-lg leading-relaxed text-muted sm:text-xl 2xl:max-w-2xl 2xl:text-2xl">
+        <p data-reveal data-delay="500" class="mt-6 max-w-xl text-lg leading-relaxed text-muted sm:text-xl 2xl:max-w-2xl 2xl:text-2xl">
           Indian stores in the USA, shopping direct from India, community events and trusted services. One app for the South Asian community.
         </p>
-        <div class="mt-8 flex flex-wrap items-center gap-3">
-          <a href={early} class="btn btn-primary">Get early access <Icon name="arrow" class="h-4 w-4" /></a>
-          <span class="inline-flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-5 py-2.5 text-left opacity-80" aria-label="Google Play, coming soon">
+        <div data-reveal data-delay="650" class="mt-8 flex flex-wrap items-center gap-3">
+          <a href={early} data-magnetic class="btn btn-primary shine">Get early access <Icon name="arrow" class="h-4 w-4" /></a>
+          <span class="inline-flex items-center gap-3 rounded-2xl border border-slate-200 bg-white/80 px-5 py-2.5 text-left opacity-90 backdrop-blur" aria-label="Google Play, coming soon">
             <svg class="h-6 w-6 text-slate-700" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5 3.5v17l14-8.5L5 3.5z"/></svg>
             <span class="flex flex-col leading-tight"><span class="text-[10px] font-medium uppercase tracking-wider text-slate-500">Coming soon</span><span class="text-sm font-semibold">Google Play</span></span>
           </span>
-          <span class="inline-flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-5 py-2.5 text-left opacity-80" aria-label="App Store, coming soon">
+          <span class="inline-flex items-center gap-3 rounded-2xl border border-slate-200 bg-white/80 px-5 py-2.5 text-left opacity-90 backdrop-blur" aria-label="App Store, coming soon">
             <svg class="h-6 w-6 text-slate-700" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.4 12.6c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.1-2.6.8-3.3.8-.7 0-1.7-.8-2.8-.8-1.4 0-2.8.9-3.5 2.2-1.5 2.6-.4 6.5 1.1 8.6.7 1 1.6 2.2 2.7 2.1 1.1 0 1.5-.7 2.8-.7s1.7.7 2.8.7c1.2 0 1.9-1 2.6-2.1.8-1.2 1.2-2.4 1.2-2.4-.1 0-2.3-.9-2.3-3.3zM14.3 6.2c.6-.7 1-1.7.9-2.7-.9 0-1.9.6-2.5 1.3-.5.6-1 1.6-.9 2.6 1 .1 1.9-.5 2.5-1.2z"/></svg>
             <span class="flex flex-col leading-tight"><span class="text-[10px] font-medium uppercase tracking-wider text-slate-500">Coming soon</span><span class="text-sm font-semibold">App Store</span></span>
           </span>
         </div>
-        <ul class="mt-9 flex flex-wrap gap-x-7 gap-y-3 border-t border-slate-100 pt-6 text-xs font-medium text-slate-600">
+        <ul data-reveal data-delay="800" class="mt-9 flex flex-wrap gap-x-7 gap-y-3 border-t border-brand-100 pt-6 text-xs font-medium text-slate-600">
           {trust.map(t => <li class="flex items-center gap-1.5"><Icon name={t.icon} class="h-[18px] w-[18px] text-brand-600" />{t.text}</li>)}
         </ul>
       </div>
-      <div class="lg:col-span-5"><PhoneMock /></div>
+      <div class="lg:col-span-5" data-reveal="zoom" data-delay="300"><PhoneMock /></div>
     </div>
   </section>
 
-  <!-- What you can do -->
-  <section id="what" class="scroll-mt-24 border-y border-brand-100 bg-brand-100/40 py-20">
+  <!-- A strip of what you will find, always moving -->
+  <section aria-label="What you will find on DesiDots" class="border-y border-brand-100 bg-white/60 py-5 backdrop-blur">
+    <div class="marquee">
+      <div class="marquee-track">
+        {[0, 1].map(() => categories.map(c => (
+          <span class="inline-flex items-center gap-2 whitespace-nowrap rounded-full border border-brand-100 bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm"><span class="h-1.5 w-1.5 rounded-full bg-brand-500"></span>{c}</span>
+        )))}
+      </div>
+    </div>
+  </section>
+
+  <!-- What you can do: bento grid -->
+  <section id="what" class="scroll-mt-24 py-20 lg:py-28">
     <div class="container-x">
-      <div class="mx-auto mb-14 max-w-2xl text-center">
+      <div data-reveal class="mx-auto mb-14 max-w-2xl text-center">
         <p class="eyebrow mb-2">What you can do</p>
-        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Built for life in the diaspora.</h2>
+        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">Built for life in the diaspora.</h2>
         <p class="mt-3 text-muted">Everything you look for from home, in one place, and priced in US dollars.</p>
       </div>
-      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        {features.map(f => (
-          <article class="flex flex-col rounded-3xl border border-slate-100 bg-white p-7 shadow-sm transition hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-md">
-            <span class="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-100 text-brand-600"><Icon name={f.icon} class="h-6 w-6" /></span>
-            <h3 class="mb-2 text-lg font-bold">{f.title}</h3>
-            <p class="text-sm leading-relaxed text-muted">{f.text}</p>
-          </article>
-        ))}
+
+      <div class="grid gap-5 md:grid-cols-6" data-stagger="110">
+        <article data-reveal data-tilt="4" class="relative overflow-hidden rounded-[28px] border border-brand-100 bg-white p-8 shadow-sm md:col-span-4">
+          <span class="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-100 text-brand-600"><Icon name="store" class="h-6 w-6" /></span>
+          <h3 class="mb-2 text-xl font-bold">Stores across the USA</h3>
+          <p class="max-w-md text-sm leading-relaxed text-muted">Shop Indian stores that ship anywhere in the United States, from pantry staples and farm products to gifts and clothing.</p>
+          <div class="mt-6 flex flex-wrap gap-2">
+            {['Pantry', 'Farm products', 'Gifts', 'Clothing', 'Festival items'].map(t => <span class="rounded-full bg-brand-50 px-3 py-1.5 text-xs font-semibold text-brand-700">{t}</span>)}
+          </div>
+          <div class="pointer-events-none absolute -bottom-10 -right-10 h-44 w-44 rounded-full bg-gradient-to-br from-brand-200/70 to-transparent blur-2xl" aria-hidden="true"></div>
+        </article>
+
+        <article data-reveal data-tilt="5" class="relative overflow-hidden rounded-[28px] bg-gradient-to-br from-brand-600 to-orange-500 p-8 text-white shadow-lg md:col-span-2">
+          <span class="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-white/20"><Icon name="plane" class="h-6 w-6" /></span>
+          <h3 class="mb-2 text-xl font-bold">Direct from India</h3>
+          <p class="text-sm leading-relaxed text-brand-50">Handloom, jewellery, spices and festival essentials. You see the dollar price and the shipping fee before you pay.</p>
+          <svg viewBox="0 0 240 60" class="mt-5 w-full" aria-hidden="true">
+            <path d="M12 46 C 70 -6, 170 -6, 228 38" fill="none" stroke="white" stroke-opacity="0.9" stroke-width="2.5" stroke-linecap="round" class="dash-flow" />
+            <circle cx="12" cy="46" r="5" fill="white" /><circle cx="228" cy="38" r="5" fill="white" />
+            <text x="12" y="58" font-size="9" fill="white" fill-opacity="0.9" font-weight="700">INDIA</text><text x="204" y="56" font-size="9" fill="white" fill-opacity="0.9" font-weight="700">USA</text>
+          </svg>
+        </article>
+
+        <article data-reveal data-tilt="5" class="relative overflow-hidden rounded-[28px] border border-amber-200 bg-gradient-to-br from-amber-50 to-white p-8 shadow-sm md:col-span-2">
+          <span class="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-100 text-amber-700"><Icon name="ticket" class="h-6 w-6" /></span>
+          <h3 class="mb-2 text-xl font-bold">Events and tickets</h3>
+          <p class="text-sm leading-relaxed text-muted">Find community events near you, from Garba nights to concerts and melas, and keep your tickets on your phone.</p>
+          <div class="mt-5 flex items-stretch overflow-hidden rounded-xl border border-amber-200 bg-white text-xs shadow-sm">
+            <div class="flex-1 px-3 py-2.5"><div class="font-extrabold text-slate-900">GARBA NIGHT</div><div class="text-slate-500">Admit 1</div></div>
+            <div class="w-px border-l-2 border-dashed border-amber-300"></div>
+            <div class="flex items-center px-3 font-extrabold text-amber-700">#042</div>
+          </div>
+        </article>
+
+        <article data-reveal data-tilt="4" class="relative overflow-hidden rounded-[28px] border border-brand-100 bg-white p-8 shadow-sm md:col-span-4">
+          <span class="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-brand-100 text-brand-600"><Icon name="scale" class="h-6 w-6" /></span>
+          <h3 class="mb-2 text-xl font-bold">Trusted professionals</h3>
+          <p class="max-w-md text-sm leading-relaxed text-muted">Browse lawyers, tax professionals and wedding vendors who understand the community, with their contact details in one place.</p>
+          <div class="mt-6 flex items-center gap-3">
+            <div class="flex -space-x-3" aria-hidden="true">
+              {['bg-brand-500', 'bg-amber-500', 'bg-orange-700', 'bg-brand-300'].map((c, i) => <span class={`flex h-10 w-10 items-center justify-center rounded-full border-2 border-white text-xs font-extrabold text-white ${c}`}>{['L', 'T', 'W', '+'][i]}</span>)}
+            </div>
+            <span class="text-xs font-semibold text-slate-600">Lawyers · Tax professionals · Wedding vendors</span>
+          </div>
+        </article>
       </div>
     </div>
   </section>
 
   <!-- How it works -->
-  <section id="how" class="scroll-mt-24 py-20">
+  <section id="how" class="scroll-mt-24 border-y border-brand-100 bg-brand-100/40 py-20 lg:py-28">
     <div class="container-x">
-      <div class="mx-auto mb-14 max-w-2xl text-center">
+      <div data-reveal class="mx-auto mb-14 max-w-2xl text-center">
         <p class="eyebrow mb-2">How it works</p>
-        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">From cart to doorstep, in four steps.</h2>
+        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">From cart to doorstep, in four steps.</h2>
       </div>
-      <ol class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-        {steps.map(s => (
-          <li class="rounded-3xl border border-brand-100 bg-white p-7 shadow-sm">
-            <span class="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-brand-600 text-sm font-extrabold text-white">{s.n}</span>
-            <h3 class="mb-2 text-base font-bold">{s.title}</h3>
-            <p class="text-sm leading-relaxed text-muted">{s.text}</p>
-          </li>
-        ))}
-      </ol>
+      <div class="relative" data-progress>
+        <div class="absolute left-0 right-0 top-5 hidden h-0.5 bg-brand-200 lg:block" aria-hidden="true"><div class="timeline-line h-full w-full bg-gradient-to-r from-brand-500 to-amber-400"></div></div>
+        <ol class="relative grid gap-6 md:grid-cols-2 lg:grid-cols-4" data-stagger="120">
+          {steps.map(s => (
+            <li data-reveal data-tilt="4" class="rounded-3xl border border-brand-100 bg-white p-7 pt-9 shadow-sm">
+              <span class="absolute -top-0 left-7 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-brand-600 text-sm font-extrabold text-white ring-4 ring-brand-50">{s.n}</span>
+              <h3 class="mb-2 text-base font-bold">{s.title}</h3>
+              <p class="text-sm leading-relaxed text-muted">{s.text}</p>
+            </li>
+          ))}
+        </ol>
+      </div>
     </div>
   </section>
 
   <!-- Clear pricing -->
-  <section class="py-20">
+  <section class="py-20 lg:py-28">
     <div class="container-x">
-      <div class="grid items-center gap-10 rounded-3xl border border-slate-100 bg-white p-8 shadow-sm sm:p-12 md:grid-cols-2">
+      <div data-reveal class="grid items-center gap-10 rounded-[28px] border border-brand-100 bg-white p-8 shadow-sm sm:p-12 md:grid-cols-2">
         <div>
           <p class="eyebrow mb-2">No surprises</p>
-          <h2 class="text-2xl font-extrabold tracking-tight sm:text-3xl">You see every charge before you pay.</h2>
+          <h2 class="text-2xl font-extrabold tracking-tight sm:text-3xl lg:text-4xl">You see every charge before you pay.</h2>
           <p class="mt-3 text-sm leading-relaxed text-muted sm:text-base">Prices are in US dollars. For India stores we convert the seller’s rupee price at checkout time and lock it for your order, so the price never changes after you place it.</p>
         </div>
-        <ul class="space-y-3 text-sm">
+        <ul class="space-y-3 text-sm" data-stagger="120">
           {['Item price in US dollars', 'Shipping fee, shown at checkout (India stores)', 'Card processing fee, 2.9% + $0.30', 'Cancel before it ships. Refunds for items a seller cannot supply'].map(x => (
-            <li class="flex items-start gap-3 rounded-2xl bg-slate-50 px-4 py-3 font-medium text-slate-700"><Icon name="check" class="mt-0.5 h-5 w-5 shrink-0 text-brand-600" />{x}</li>
+            <li data-reveal="right" class="flex items-start gap-3 rounded-2xl bg-brand-50 px-4 py-3 font-medium text-slate-700"><Icon name="check" class="mt-0.5 h-5 w-5 shrink-0 text-brand-600" />{x}</li>
           ))}
         </ul>
       </div>
@@ -127,48 +179,50 @@ const faqs = [
   </section>
 
   <!-- Sellers -->
-  <section id="sellers" class="scroll-mt-24 border-y border-brand-100 bg-brand-100/40 py-20">
+  <section id="sellers" class="scroll-mt-24 pb-20 lg:pb-28">
     <div class="container-x">
-      <div class="mx-auto max-w-3xl rounded-3xl bg-gradient-to-br from-brand-600 to-orange-500 p-10 text-center text-white shadow-lg sm:p-14">
-        <p class="mb-2 text-xs font-bold uppercase tracking-wider text-brand-100">For sellers</p>
-        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Sell to the diaspora across the USA.</h2>
-        <p class="mx-auto mt-4 max-w-xl text-brand-50">Run a store in the USA or in India? We take the payment, tell you when an order is ready to ship, and pay you by bank transfer. Write to us to join.</p>
-        <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
-          <a href={sell} class="btn bg-white text-brand-700 hover:bg-brand-50">Become a seller <Icon name="arrow" class="h-4 w-4" /></a>
+      <div data-reveal="zoom" class="relative mx-auto max-w-4xl overflow-hidden rounded-[32px] bg-gradient-to-br from-brand-600 to-orange-500 p-10 text-center text-white shadow-xl sm:p-16">
+        <div class="pointer-events-none absolute -left-16 -top-16 h-64 w-64 rounded-full bg-white/10 blur-xl" data-parallax="0.12" aria-hidden="true"></div>
+        <div class="pointer-events-none absolute -bottom-20 -right-10 h-72 w-72 rounded-full bg-amber-300/20 blur-xl" data-parallax="-0.1" aria-hidden="true"></div>
+        <p class="relative mb-2 text-xs font-bold uppercase tracking-wider text-brand-100">For sellers</p>
+        <h2 class="relative text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">Sell to the diaspora across the USA.</h2>
+        <p class="relative mx-auto mt-4 max-w-xl text-brand-50">Run a store in the USA or in India? We take the payment, tell you when an order is ready to ship, and pay you by bank transfer. Write to us to join.</p>
+        <div class="relative mt-8 flex flex-wrap items-center justify-center gap-3">
+          <a href={sell} data-magnetic class="btn bg-white text-brand-700 hover:bg-brand-50">Become a seller <Icon name="arrow" class="h-4 w-4" /></a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- FAQ -->
-  <section id="faq" class="scroll-mt-24 py-20">
+  <section id="faq" class="scroll-mt-24 border-t border-brand-100 bg-white/60 py-20 lg:py-28">
     <div class="container-x max-w-3xl">
-      <div class="mb-10 text-center">
+      <div data-reveal class="mb-10 text-center">
         <p class="eyebrow mb-2">FAQ</p>
-        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Questions, answered.</h2>
+        <h2 class="text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl">Questions, answered.</h2>
       </div>
-      <div class="divide-y divide-slate-100 rounded-3xl border border-slate-100 bg-white shadow-sm">
+      <div class="divide-y divide-brand-100 rounded-3xl border border-brand-100 bg-white shadow-sm" data-reveal>
         {faqs.map(f => (
           <details class="group px-6 py-5">
             <summary class="flex items-center justify-between gap-4 text-left text-base font-bold">
               {f.q}
-              <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-brand-50 text-brand-600 transition group-open:rotate-45" aria-hidden="true">+</span>
+              <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-brand-50 text-brand-600 transition duration-300 group-open:rotate-45" aria-hidden="true">+</span>
             </summary>
             <p class="mt-3 text-sm leading-relaxed text-muted">{f.a}</p>
           </details>
         ))}
       </div>
-      <p class="mt-6 text-center text-sm text-muted">More: <a class="font-semibold text-brand-700 hover:text-brand-600" href="/refunds/">Refunds</a> · <a class="font-semibold text-brand-700 hover:text-brand-600" href="/shipping/">Shipping</a> · <a class="font-semibold text-brand-700 hover:text-brand-600" href="/delete-account/">Delete your account</a></p>
+      <p class="mt-6 text-center text-sm text-muted">More: <a class="font-semibold text-brand-700 hover:text-brand-600" href="/refunds/">Refunds</a> · <a class="font-semibold text-brand-700 hover:text-brand-600" href="/shipping/">Shipping</a> · <a class="font-semibold text-brand-700 hover:text-brand-600" href="/delete-account/">Delete your account</a> · <a class="font-semibold text-brand-700 hover:text-brand-600" href="/contact/">Contact us</a></p>
     </div>
   </section>
 
   <!-- Closing call to action -->
-  <section class="pb-24">
+  <section class="pb-24 pt-4">
     <div class="container-x">
-      <div class="flex flex-col items-center gap-6 rounded-3xl border border-brand-200 bg-gradient-to-br from-brand-100 to-brand-50 px-6 py-12 text-center sm:py-16">
-        <img src="/logo.png" alt="" width="64" height="64" class="h-16 w-16 rounded-2xl shadow-md" />
-        <h2 class="text-2xl font-extrabold tracking-tight sm:text-3xl">Be first to know when DesiDots launches.</h2>
-        <a href={early} class="btn btn-primary"><Icon name="mail" class="h-4 w-4" /> Get early access</a>
+      <div data-reveal class="flex flex-col items-center gap-6 rounded-[32px] border border-brand-200 bg-gradient-to-br from-brand-100 to-brand-50 px-6 py-14 text-center sm:py-20">
+        <img src="/logo.png" alt="" width="64" height="64" class="floaty h-16 w-16 rounded-2xl shadow-md" style="--t:5s" />
+        <h2 class="text-2xl font-extrabold tracking-tight sm:text-3xl lg:text-4xl">Be first to know when DesiDots launches.</h2>
+        <a href={early} data-magnetic class="btn btn-primary shine"><Icon name="mail" class="h-4 w-4" /> Get early access</a>
         <p class="text-xs text-slate-500">We only use your email to tell you about the launch.</p>
       </div>
     </div>
