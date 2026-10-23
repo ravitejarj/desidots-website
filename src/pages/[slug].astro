@@ -1,0 +1,39 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('legal');
+  return pages.map(entry => ({ params: { slug: entry.data.slug }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const all = (await getCollection('legal')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+// a visible warning while any draft marker is left in the text (the production build also refuses to run)
+const hasDraft = /\[DECIDE|\[EFFECTIVE DATE\]|DRAFT:/.test(entry.body ?? '');
+---
+<Base title={`${entry.data.title} | DesiDots`} description={entry.data.description}>
+  {hasDraft && (
+    <div class="border-b border-amber-300 bg-amber-100 px-6 py-3 text-center text-sm font-semibold text-amber-900">
+      DRAFT: this page still has notes marked [DECIDE ...] or [EFFECTIVE DATE]. Do not publish until they are resolved.
+    </div>
+  )}
+  <div class="container-x grid gap-12 py-12 lg:grid-cols-12 lg:py-16">
+    <article class="lg:col-span-8">
+      <nav class="mb-6 text-sm text-muted" aria-label="Breadcrumb"><a class="hover:text-brand-600" href="/">Home</a> <span aria-hidden="true">/</span> <span>{entry.data.title}</span></nav>
+      <div class="legal-prose"><Content /></div>
+    </article>
+    <aside class="lg:col-span-4">
+      <div class="sticky top-28 rounded-3xl border border-slate-100 bg-slate-50/60 p-6">
+        <h2 class="eyebrow mb-4">Policies</h2>
+        <ul class="space-y-2 text-sm">
+          {all.map(p => (
+            <li><a href={`/${p.data.slug}/`} class:list={['block rounded-xl px-3 py-2 font-medium transition', p.data.slug === entry.data.slug ? 'bg-brand-100 text-brand-800' : 'text-muted hover:bg-white hover:text-brand-600']}>{p.data.title}</a></li>
+          ))}
+        </ul>
+        <p class="mt-6 text-xs leading-relaxed text-slate-500">Questions? Email <a class="font-semibold text-brand-700" href="mailto:support@desidots.com">support@desidots.com</a>.</p>
+      </div>
+    </aside>
+  </div>
+</Base>

@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@import "@fontsource-variable/plus-jakarta-sans";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans Variable", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-50: #fff7ed;
+  --color-brand-100: #ffedd5;
+  --color-brand-200: #fed7aa;
+  --color-brand-300: #fdba74;
+  --color-brand-400: #fb923c;
+  --color-brand-500: #f97316;
+  --color-brand-600: #ea580c;
+  --color-brand-700: #c2410c;
+  --color-brand-800: #9a3412;
+  --color-ink: #111827;
+  --color-muted: #475569;
+}
+
+@layer base {
+  html { scroll-behavior: smooth; background: #fff8f0; }
+  body { background: #fff8f0; @apply font-sans text-ink antialiased; }
+  ::selection { background: var(--color-brand-100); color: var(--color-brand-800); }
+  :focus-visible { outline: 3px solid var(--color-brand-500); outline-offset: 2px; border-radius: 6px; }
+  summary { cursor: pointer; }
+  summary::-webkit-details-marker { display: none; }
+}
+
+@layer components {
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition active:scale-[0.98]; }
+  .btn-primary { @apply bg-brand-600 text-white shadow-sm shadow-brand-600/30 hover:bg-brand-700; }
+  .btn-outline { @apply border border-slate-200 bg-white text-ink hover:border-brand-300 hover:bg-brand-50; }
+  .container-x { @apply mx-auto w-full max-w-6xl px-6; }
+  .eyebrow { @apply text-xs font-bold uppercase tracking-wider text-brand-600; }
+}
+
+/* Legal pages: readable long text */
+.legal-prose { @apply prose prose-slate max-w-none prose-headings:font-extrabold prose-headings:tracking-tight prose-h1:text-3xl prose-h2:text-xl prose-h2:mt-10 prose-a:font-semibold prose-a:text-brand-700 hover:prose-a:text-brand-600 prose-strong:text-ink; }
+.legal-prose table { @apply text-sm; }
+.legal-prose th { @apply text-left; }
+.legal-prose th, .legal-prose td { @apply align-top; }
