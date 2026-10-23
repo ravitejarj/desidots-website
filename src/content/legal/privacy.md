@@ -46,6 +46,7 @@ We do **not sell** your personal information, and we do **not share** it for cro
 | **Supabase** (hosting and database) | Stores the data described in this policy for us. |
 | **Zoho** (email) | Handles the email sent to and from our support and privacy mailboxes, including messages from the website contact form. |
 | **Vercel** (website hosting) | Hosts www.desidots.com and runs the contact form. |
+| **Meta (WhatsApp)** | For sellers who choose it: the seller's WhatsApp number and the order number and store name in the alert we send about a new order. |
 | **Google** | Sign-in. |
 | **Geoapify** | The address text you type, to suggest and check addresses. |
 | **Carriers and tracking pages** | When you open a tracking link you go to the carrier's (or 17TRACK's) website. They have their own policies. |
