@@ -21,10 +21,10 @@ Needs Node 20.3 or newer (you have 20.20). When you upgrade to Node 22 you can a
 | Logo, favicon, share image | `public/` |
 | Page title / description / share card | `src/layouts/Base.astro` |
 
-The 7 legal pages are the drafts from `DesiDots v4/legal`. **These copies are the ones that get published**, so make your final edits here (after the lawyer has read them).
+The legal pages here (Terms, Privacy, Refunds, Shipping, Delete account, Contact) are the ones that get published. The Vendor Agreement is kept out of the website, in the app folder (`DesiDots v4/legal`). A lawyer's review is still recommended; no document can promise you will never have a dispute.
 
 ## The safety lock (important)
-`npm run build` **refuses to build** while any draft note is left in the legal pages: `[DECIDE ...]`, `[EFFECTIVE DATE]`, `DRAFT:`. That stops an unfinished policy from going live by accident. It prints each leftover note.
+`npm run build` **refuses to build** if a draft note is ever left in the legal pages: `[DECIDE ...]`, `[EFFECTIVE DATE]`, `DRAFT:`. (Right now there are none.) That stops an unfinished policy from going live by accident. It prints each leftover note.
 - Finish the notes, then `npm run build` works and makes the `dist/` folder.
 - For a private preview with drafts: `npm run build:preview`.
 - While you edit, `npm run dev` shows a yellow DRAFT banner on any page that still has notes.
@@ -39,7 +39,7 @@ Use **Cloudflare Pages** (free) or Netlify. Steps for Cloudflare Pages:
 6. Wait up to an hour. Then open https://www.desidots.com.
 
 ## Before going live: checklist
-- [ ] Legal pages finished (no [DECIDE] notes left) and read by a lawyer
+- [x] Legal pages written (no draft notes left); a lawyer's review is still recommended
 - [ ] Business name/address final (footer: `src/components/Footer.astro`; text in `src/layouts/Base.astro`; legal pages)
 - [ ] Replace the "Coming soon" store badges with real links once the apps are published (`src/pages/index.astro`)
 - [ ] Add real app screenshots in place of the drawn phone (`src/components/PhoneMock.astro`)

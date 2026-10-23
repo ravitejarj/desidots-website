@@ -6,48 +6,51 @@ slug: shipping
 
 # Shipping Policy
 
-**DRAFT: have a lawyer review before publishing.**
 Effective date: November 2, 2026
 
+This policy is part of our [Terms and Conditions](/terms/). Delivery times in it are **estimates, not promises**.
+
 ## 1. Who ships your order
-Each order is packed and shipped by the **Vendor** (the seller) you bought from, using a carrier such as FedEx, UPS, DHL, India Post, Blue Dart, DTDC or Delhivery. DesiDots does not ship products itself.
+Each order is packed and shipped by the **Vendor** (the seller) you bought from, using a carrier such as FedEx, UPS, DHL, India Post, Blue Dart, DTDC or Delhivery. DesiDots does not store or ship products itself.
 
 ## 2. Where we deliver
-- **USA stores:** delivery across the United States [DECIDE: confirm the states, and whether Alaska, Hawaii and territories are included].
-- **India stores:** shipped by air from India to addresses in the United States.
-- We do not deliver to PO boxes unless the Vendor says otherwise [DECIDE].
+- **USA stores:** delivery to addresses in the 50 United States and the District of Columbia. We do not currently deliver to US territories, military (APO/FPO) addresses or outside the USA.
+- **India stores:** shipped by air from India to addresses in the same area.
+- Some carriers cannot deliver to PO boxes. Use a street address unless the Vendor says a PO box is accepted.
 
 ## 3. Shipping costs
-- **USA stores:** the shipping amount (if any) is shown at checkout.
-- **India stores:** a flat **shipping fee** is shown at checkout [DECIDE: currently $8.99; the policy refers to "the amount shown at checkout" so it can change].
-- A **processing fee** is also added at checkout (2.9% + $0.30). It is not a shipping charge.
+- **USA stores:** any shipping amount is shown at checkout.
+- **India stores:** a flat **shipping fee** is shown at checkout before you pay. The amount can change over time, but the fee shown when you place an order is the fee you pay.
+- A **card processing fee** (2.9% + $0.30) is also added at checkout. It is not a shipping charge.
 
 ## 4. How long it takes
-These are **estimates**, not promises.
-| Where from | Usual time after the order is shipped |
-|---|---|
-| USA stores | [DECIDE: 3 to 7 days] |
-| India stores | [DECIDE: 7 to 14 days] |
+| Where it ships from | Vendor ships within | Usual delivery after it ships |
+|---|---|---|
+| USA stores | 2 business days of your paid order | 3 to 7 days |
+| India stores | 3 business days of your paid order | 7 to 14 days |
 
-The Vendor should ship within **[DECIDE: 2 business days]** of your paid order. Weather, carriers, holidays, customs and the Vendor's stock can cause delays.
+Weather, holidays, carrier delays, customs and a Vendor's stock can add time. A delay does not by itself entitle you to compensation. If your order has not arrived after these times, follow section 8.
 
 ## 5. Tracking
-When your order ships you get a notification with the carrier and the tracking number, and the order page shows them. For some carriers the link opens the carrier's own page; for others it opens a general tracking page (17TRACK). Tracking pages can take a day or more to show updates, especially for international parcels.
+When your order ships you receive a notification with the carrier and tracking number, and your order page shows them. For some carriers the link opens the carrier's own page, for others a general tracking page (17TRACK). Tracking can take a day or more to update, especially for international parcels.
 
-## 6. Orders from India: customs, duties and food
-- Parcels from India pass through **US customs**. Customs may inspect, delay, hold, return or destroy a parcel.
-- **Duties, taxes and fees:** [DECIDE: who pays. Suggested wording: "Import duties and taxes, if any, are the responsibility of the buyer. If a carrier asks you to pay before delivery, the amount is set by the authorities, not by DesiDots." A lawyer or accountant should confirm.]
-- **Food, herbs and Ayurvedic products** are regulated (FDA and USDA rules). Some items can be refused at the border. Sellers are responsible for labelling and for sending only items that are allowed. We show a notice on food products from India.
-- Customs delays are outside our control and are not a reason for late-delivery compensation.
+## 6. Delivery and risk
+**A parcel counts as delivered when tracking shows it was delivered to the address you gave**, including when it was left at a door, mailroom, reception or safe place in line with the carrier's usual practice. Make sure someone can receive it, or ask the carrier for a hold or signature where that is offered. Once a parcel is delivered, loss or theft is not our or the Vendor's responsibility, except where the law says otherwise.
 
-## 7. Wrong or incomplete address
-Check your delivery address before you order. If a parcel is returned because the address was wrong or incomplete, or nobody collected it, we may be unable to refund the shipping fee, and reshipping may cost extra.
+## 7. Orders from India: customs, duties and food
+- Parcels from India pass through **US customs**. Customs may inspect, delay, hold, return, charge fees on, or destroy a parcel.
+- **Duties, taxes and fees.** Import duties, customs charges and taxes set by authorities or collected by carriers are **your responsibility as the buyer**. They are not included in the price. A carrier may ask you to pay before delivery. DesiDots does not set these amounts.
+- **Food, herbs, supplements and Ayurvedic or cosmetic products** are regulated (for example by the FDA and USDA). Some items are restricted or refused at the border. Vendors are responsible for sending only items that may lawfully be shipped and for correct labelling. Perishable food can spoil in transit; see the [Refund and Cancellation Policy](/refunds/).
+- If customs holds or refuses a parcel because of a problem on the Vendor's side, see [section 6 of the Refund and Cancellation Policy](/refunds/).
 
-## 8. Missing or damaged parcels
-Follow our [Refund and Cancellation Policy](/refunds/), section 4. Keep the packaging and take photos if something arrives damaged.
+## 8. Orders that do not arrive
+Email support@desidots.com with your order number within the time limits in [section 4 of the Refund and Cancellation Policy](/refunds/). We check tracking and contact the Vendor and carrier. If the parcel is lost, the Vendor reships or you are refunded.
 
-## 9. Items that are not available
-If some items cannot be supplied, you choose to ship the rest or cancel: see the [Refund and Cancellation Policy](/refunds/), section 2.
+## 9. Wrong or incomplete address
+Check your delivery address before you order. If a parcel is returned or cannot be delivered because the address was wrong or incomplete, or nobody collected it, the order may not be refundable and reshipping may cost extra.
 
-## 10. Contact
+## 10. Split shipments
+An order is normally shipped in one parcel, but a Vendor may send it in more than one. You get tracking for each.
+
+## 11. Contact
 support@desidots.com. DesiDots, 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA.
