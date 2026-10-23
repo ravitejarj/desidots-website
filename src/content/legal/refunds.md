@@ -7,7 +7,7 @@ slug: refunds
 # Refund and Cancellation Policy
 
 **DRAFT: have a lawyer review before publishing.**
-Effective date: [EFFECTIVE DATE]
+Effective date: November 2, 2026
 
 ## 1. Cancelling an order yourself
 You can cancel an order in the app (Orders, open the order, "Cancel order") **until the Vendor ships it**. Once it has shipped it can no longer be cancelled in the app: see section 4.

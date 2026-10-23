@@ -7,7 +7,7 @@ slug: shipping
 # Shipping Policy
 
 **DRAFT: have a lawyer review before publishing.**
-Effective date: [EFFECTIVE DATE]
+Effective date: November 2, 2026
 
 ## 1. Who ships your order
 Each order is packed and shipped by the **Vendor** (the seller) you bought from, using a carrier such as FedEx, UPS, DHL, India Post, Blue Dart, DTDC or Delhivery. DesiDots does not ship products itself.

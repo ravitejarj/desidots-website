@@ -7,7 +7,7 @@ slug: sellers
 # Vendor Agreement
 
 **DRAFT: have a lawyer review before using.**
-Effective date: [EFFECTIVE DATE]
+Effective date: November 2, 2026
 
 This agreement is between **Groccy Technologies, Inc., doing business as DesiDots** ("DesiDots") and the business named on the vendor account ("Vendor", "you"). By being activated as a Vendor you agree to it, together with the Customer [Terms and Conditions](/terms/), [Refund and Cancellation Policy](/refunds/) and [Shipping Policy](/shipping/).
 

@@ -7,7 +7,7 @@ slug: terms
 # Terms and Conditions
 
 **DRAFT: have a lawyer review before publishing.**
-Effective date: [EFFECTIVE DATE]
+Effective date: November 2, 2026
 
 These Terms are an agreement between you and **Groccy Technologies, Inc., doing business as DesiDots** ("DesiDots", "we", "us"), 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA. They apply to the DesiDots mobile app and website ("the Service"). By creating an account or placing an order you agree to them, together with our [Privacy Policy](/privacy/), [Refund and Cancellation Policy](/refunds/) and [Shipping Policy](/shipping/).
 

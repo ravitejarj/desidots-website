@@ -6,7 +6,7 @@ slug: delete-account
 
 # Delete your account and data
 
-Effective date: [EFFECTIVE DATE]
+Effective date: November 2, 2026
 
 You can delete your DesiDots account and the personal data connected to it at any time.
 

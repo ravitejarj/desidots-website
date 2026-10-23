@@ -7,7 +7,7 @@ slug: privacy
 # Privacy Policy
 
 **DRAFT: have a lawyer review before publishing.**
-Effective date: [EFFECTIVE DATE]
+Effective date: November 2, 2026
 
 **Groccy Technologies, Inc., doing business as DesiDots** ("DesiDots", "we") runs the DesiDots app and website. This policy explains what we collect, why, who we share it with, how long we keep it, and your choices. Questions: privacy@desidots.com.
 
