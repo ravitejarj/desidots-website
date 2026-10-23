@@ -24,7 +24,7 @@ Effective date: November 2, 2026
 | Contact form and emails | Your name, email address, optional order number and message | To answer you. The website form sends your message to our support mailbox |
 | Seller information (Vendors only) | Business details, tax and identity details needed for payouts (for example EIN, PAN, GSTIN, import-export code) and bank details | To verify and pay sellers. Full bank account numbers are stored separately with extra protection |
 
-**Collected automatically:** notification messages we create for your orders and payments (and whether you read them), and technical information needed to keep you signed in and keep the Service secure (such as a session token).
+**Collected automatically:** notification messages we create for your orders and payments (and whether you read them); if you allow push notifications, a private address for your phone (a push token) so we can send them; and technical information needed to keep you signed in and keep the Service secure (such as a session token). You can turn notifications off in the app or in your phone's settings.
 
 **What we do not collect:** your card number (Stripe collects it on its own secure page); your phone's GPS location (the app uses only the addresses you enter); advertising identifiers; and we use **no third-party advertising or analytics trackers**. The website sets no cookies.
 
@@ -48,6 +48,7 @@ We do **not sell** your personal information, and we do **not share** it for cro
 | **Vercel** (website hosting) | Hosts www.desidots.com and runs the contact form. |
 | **Meta (WhatsApp)** | For sellers who choose it: the seller's WhatsApp number and the order number and store name in the alert we send about a new order. |
 | **Google** | Sign-in. |
+| **Google (Firebase Cloud Messaging)** | Delivers push notifications to your phone. It receives your phone's push token and the notification text. |
 | **Geoapify** | The address text you type, to suggest and check addresses. |
 | **Carriers and tracking pages** | When you open a tracking link you go to the carrier's (or 17TRACK's) website. They have their own policies. |
 | **Our advisers** | Accountants and lawyers, under confidentiality. |
