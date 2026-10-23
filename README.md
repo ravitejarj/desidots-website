@@ -45,3 +45,19 @@ Use **Cloudflare Pages** (free) or Netlify. Steps for Cloudflare Pages:
 - [ ] Add real app screenshots in place of the drawn phone (`src/components/PhoneMock.astro`)
 - [ ] Add your Instagram link to the footer when the page exists
 - [ ] Put the website address in Stripe (Settings > Business details) and in the Google Play and App Store listings; the privacy policy page is `https://www.desidots.com/privacy/` and the account deletion page is `https://www.desidots.com/delete-account/`
+
+## The contact form (Contact page)
+Messages from the form on `/contact/` are emailed to **support@desidots.com** through your Zoho mailbox. The code is `src/pages/api/contact.ts` (a small server function that Vercel runs) and `src/components/ContactForm.astro`.
+
+It needs these settings in **Vercel > your project > Settings > Environment Variables** (copy the names from `.env.example`):
+
+| Name | Value |
+|---|---|
+| `SMTP_USER` | the real Zoho mailbox that sends (the mailbox that owns your support alias) |
+| `SMTP_PASS` | a Zoho **application-specific password** for that mailbox (Zoho Mail > My Account > Security > App Passwords). Do not use the normal password |
+| `MAIL_TO` | `support@desidots.com` |
+| `SMTP_HOST` / `SMTP_PORT` | optional: `smtp.zoho.com` / `465` are the defaults |
+
+After saving the variables, redeploy the site (Deployments > the latest > Redeploy). Until they are set the form shows "The form is not available right now. Please email support@desidots.com."
+
+Protection built in: a hidden robots-only field, a limit of about 5 messages an hour per visitor, a check that the request comes from your site, a cap on links in a message, and clean-up of every field so nobody can add mail headers. Customer replies go to the customer: the email has Reply-To set to the sender.

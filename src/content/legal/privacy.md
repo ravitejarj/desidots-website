@@ -21,6 +21,7 @@ Effective date: November 2, 2026
 | Delivery addresses | Name, phone, street, city, state, ZIP code, delivery notes | To deliver your orders and show stores and events near you |
 | Orders and tickets | What you bought, from which store, amounts, status, tracking details, cancellations and refunds | To run your orders and keep records |
 | Reviews and reports | Ratings, comments, messages and screenshots you send us | To show reviews and help you |
+| Contact form and emails | Your name, email address, optional order number and message | To answer you. The website form sends your message to our support mailbox |
 | Seller information (Vendors only) | Business details, tax and identity details needed for payouts (for example EIN, PAN, GSTIN, import-export code) and bank details | To verify and pay sellers. Full bank account numbers are stored separately with extra protection |
 
 **Collected automatically:** notification messages we create for your orders and payments (and whether you read them), and technical information needed to keep you signed in and keep the Service secure (such as a session token).
@@ -43,6 +44,8 @@ We do **not sell** your personal information, and we do **not share** it for cro
 | **The Vendor you order from** | The items ordered and your delivery name, address and phone number, so they can ship your order. Not your email or payment details. Vendors may use it only to fulfil your order. |
 | **Stripe** (payments) | Payment details you enter on Stripe's page, your email and the order amount, to take payments and make refunds. Stripe's own privacy policy applies. |
 | **Supabase** (hosting and database) | Stores the data described in this policy for us. |
+| **Zoho** (email) | Handles the email sent to and from our support and privacy mailboxes, including messages from the website contact form. |
+| **Vercel** (website hosting) | Hosts www.desidots.com and runs the contact form. |
 | **Google** | Sign-in. |
 | **Geoapify** | The address text you type, to suggest and check addresses. |
 | **Carriers and tracking pages** | When you open a tracking link you go to the carrier's (or 17TRACK's) website. They have their own policies. |

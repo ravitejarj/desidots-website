@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import ContactForm from '../components/ContactForm.astro';
+import Icon from '../components/Icon.astro';
+---
+<Base title="Contact and support | DesiDots" description="Contact DesiDots for help with orders, payments, refunds and your account. Send us a message and we reply within 2 business days.">
+  <div class="container-x py-12 lg:py-16">
+    <nav class="mb-6 text-sm text-muted" aria-label="Breadcrumb"><a class="hover:text-brand-600" href="/">Home</a> <span aria-hidden="true">/</span> <span>Contact and support</span></nav>
+    <div class="mb-10 max-w-2xl">
+      <h1 class="text-3xl font-extrabold tracking-tight sm:text-4xl">Contact and support</h1>
+      <p class="mt-3 text-lg text-muted">We are here to help with orders, payments, refunds and your account. Send us a message and we reply within 2 business days.</p>
+    </div>
+
+    <div class="grid gap-10 lg:grid-cols-12">
+      <div class="lg:col-span-7"><ContactForm /></div>
+
+      <aside class="space-y-5 lg:col-span-5">
+        <div class="rounded-3xl border border-brand-100 bg-brand-100/40 p-6">
+          <h2 class="eyebrow mb-4">Prefer email?</h2>
+          <ul class="space-y-3 text-sm">
+            <li class="flex items-start gap-3"><Icon name="mail" class="mt-0.5 h-5 w-5 shrink-0 text-brand-600" /><span><span class="block font-bold text-ink">Support</span><a class="text-brand-700 hover:text-brand-600" href="mailto:support@desidots.com">support@desidots.com</a></span></li>
+            <li class="flex items-start gap-3"><Icon name="shield" class="mt-0.5 h-5 w-5 shrink-0 text-brand-600" /><span><span class="block font-bold text-ink">Privacy requests</span><a class="text-brand-700 hover:text-brand-600" href="mailto:privacy@desidots.com">privacy@desidots.com</a></span></li>
+          </ul>
+        </div>
+        <div class="rounded-3xl border border-slate-100 bg-white p-6 text-sm leading-relaxed text-muted">
+          <h2 class="eyebrow mb-3">The quickest way</h2>
+          <p>In the app, open your order and tap <strong class="text-ink">"Need help with this order?"</strong>. It sends us the order number so we can help faster.</p>
+          <h2 class="eyebrow mb-3 mt-6">Please include</h2>
+          <ul class="list-disc space-y-1 pl-5">
+            <li>Your order number (shown on the order page, such as #DD-1A2B3C)</li>
+            <li>What went wrong, and photos if an item arrived damaged or wrong</li>
+          </ul>
+          <h2 class="eyebrow mb-3 mt-6">Useful pages</h2>
+          <ul class="space-y-1 font-semibold">
+            <li><a class="text-brand-700 hover:text-brand-600" href="/refunds/">Refund and Cancellation Policy</a></li>
+            <li><a class="text-brand-700 hover:text-brand-600" href="/shipping/">Shipping Policy</a></li>
+            <li><a class="text-brand-700 hover:text-brand-600" href="/terms/">Terms and Conditions</a></li>
+            <li><a class="text-brand-700 hover:text-brand-600" href="/privacy/">Privacy Policy</a></li>
+            <li><a class="text-brand-700 hover:text-brand-600" href="/delete-account/">Delete your account</a></li>
+          </ul>
+          <p class="mt-6">Selling on DesiDots? Use the form and tell us your store name.</p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</Base>
