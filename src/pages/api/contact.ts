@@ -35,7 +35,10 @@ const reply = (wantsJson: boolean, ok: boolean, message: string, status = ok ? 2
 export const POST: APIRoute = async ({ request, clientAddress }) => {
   const wantsJson = (request.headers.get('accept') ?? '').includes('application/json');
   const origin = request.headers.get('origin');
-  if (origin && !ALLOWED_ORIGINS.has(origin) && !origin.endsWith('.vercel.app')) return reply(wantsJson, false, 'Not allowed.', 403);
+  if (origin && !ALLOWED_ORIGINS.has(origin) && !origin.endsWith('.vercel.app')) {
+    console.warn('Contact form refused: origin not allowed', origin);
+    return reply(wantsJson, false, 'Not allowed.', 403);
+  }
 
   let data: Record<string, unknown> = {};
   try {
@@ -46,7 +49,7 @@ export const POST: APIRoute = async ({ request, clientAddress }) => {
   }
 
   // a hidden field that only robots fill in: pretend it worked
-  if (clean(data.website, 200)) return reply(wantsJson, true, 'Thank you. Your message was sent.');
+  if (clean(data.website, 200)) { console.warn('Contact form: hidden field filled, treated as a robot'); return reply(wantsJson, true, 'Thank you. Your message was sent.'); }
 
   const name = clean(data.name, 100);
   const email = clean(data.email, 200);

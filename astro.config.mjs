@@ -9,6 +9,9 @@ export default defineConfig({
   site: 'https://www.desidots.com',
   integrations: [sitemap()],
   adapter: vercel(),
+  // Astro's built-in cross-site check can wrongly refuse requests on Vercel (it compared http with https and answered 403 before our code ran).
+  // The contact endpoint does its own origin check against the real site addresses, so the built-in one is switched off.
+  security: { checkOrigin: false },
   // server-only settings for the contact form (set in Vercel > Settings > Environment Variables; see .env.example)
   env: {
     schema: {
