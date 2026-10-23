@@ -92,4 +92,5 @@ The Service links to carrier pages and other websites we do not control. Their p
 We may update this policy. The effective date at the top shows the latest version. For important changes we will tell you in the app or by email before they take effect.
 
 ## 12. Contact
-DesiDots, 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA. Email: privacy@desidots.com.
+DesiDots, 2401 Windy Hill Road, Marietta, GA 30067, USA. Email: privacy@desidots.com.  
+Customer support: https://www.desidots.com/contact/.

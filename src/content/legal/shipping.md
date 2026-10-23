@@ -53,4 +53,5 @@ Check your delivery address before you order. If a parcel is returned or cannot 
 An order is normally shipped in one parcel, but a Vendor may send it in more than one. You get tracking for each.
 
 ## 11. Contact
-support@desidots.com. DesiDots, 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA.
+support@desidots.com. DesiDots, 2401 Windy Hill Road, Marietta, GA 30067, USA.  
+Customer support: https://www.desidots.com/contact/.

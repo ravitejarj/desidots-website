@@ -8,7 +8,7 @@ slug: terms
 
 Effective date: November 2, 2026
 
-Please read these Terms carefully. They are a legal agreement between you and **DesiDots** ("we", "us"), 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA. They cover your use of the DesiDots mobile app and website (the "Service"). **They contain an agreement to resolve disputes by individual arbitration and a waiver of class actions (section 20).** By creating an account, placing an order, or using the Service, you agree to these Terms and to our [Privacy Policy](/privacy/), [Refund and Cancellation Policy](/refunds/) and [Shipping Policy](/shipping/). If you do not agree, do not use the Service.
+Please read these Terms carefully. They are a legal agreement between you and **DesiDots** ("we", "us"), 2401 Windy Hill Road, Marietta, GA 30067, USA. They cover your use of the DesiDots mobile app and website (the "Service"). **They contain an agreement to resolve disputes by individual arbitration and a waiver of class actions (section 20).** By creating an account, placing an order, or using the Service, you agree to these Terms and to our [Privacy Policy](/privacy/), [Refund and Cancellation Policy](/refunds/) and [Shipping Policy](/shipping/). If you do not agree, do not use the Service.
 
 ## 1. What DesiDots is, and is not
 DesiDots is an online marketplace for the South Asian community in the USA. It lists stores in the USA and in India, community events and tickets, and directories of professionals such as lawyers, tax professionals and wedding vendors.
@@ -121,4 +121,5 @@ These Terms are governed by the laws of the **State of Alabama**, USA, and the F
 - **No agency.** Nothing here makes you our partner, employee or agent, or makes us yours. Vendors are not our employees.
 
 ## 23. Contact
-DesiDots, 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA. Email: support@desidots.com. Website: https://www.desidots.com
+DesiDots, 2401 Windy Hill Road, Marietta, GA 30067, USA. Email: support@desidots.com. Website: https://www.desidots.com  
+Customer support: https://www.desidots.com/contact/.

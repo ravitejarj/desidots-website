@@ -8,9 +8,10 @@ slug: contact
 
 We are here to help with orders, payments, refunds and your account. We reply within 2 business days.
 
+- **Customer support page:** https://www.desidots.com/contact/
 - **Email:** support@desidots.com
 - **Privacy requests:** privacy@desidots.com
-- **Mail:** DesiDots, 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA
+- **Mail:** DesiDots, 2401 Windy Hill Road, Marietta, GA 30067, USA
 
 ## The quickest way
 In the app, open your order and tap **"Need help with this order?"**. It sends us the order number so we can help faster.
