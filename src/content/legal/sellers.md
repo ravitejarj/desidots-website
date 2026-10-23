@@ -9,7 +9,7 @@ slug: sellers
 **DRAFT: have a lawyer review before using.**
 Effective date: November 2, 2026
 
-This agreement is between **Groccy Technologies, Inc., doing business as DesiDots** ("DesiDots") and the business named on the vendor account ("Vendor", "you"). By being activated as a Vendor you agree to it, together with the Customer [Terms and Conditions](/terms/), [Refund and Cancellation Policy](/refunds/) and [Shipping Policy](/shipping/).
+This agreement is between **DesiDots** and the business named on the vendor account ("Vendor", "you"). By being activated as a Vendor you agree to it, together with the Customer [Terms and Conditions](/terms/), [Refund and Cancellation Policy](/refunds/) and [Shipping Policy](/shipping/).
 
 ## 1. Your role
 You are an **independent seller**, not an employee, partner or agent of DesiDots. You sell products to customers through DesiDots. DesiDots provides the marketplace, collects the customer's payment, and pays you as set out below. You are responsible for your products and your taxes.
@@ -71,4 +71,4 @@ Either side may end this agreement with **[DECIDE: 14]** days' notice. DesiDots 
 This agreement is governed by the laws of the State of **Alabama**, USA. [DECIDE with a lawyer: how disputes are decided, especially for vendors based in India.]
 
 ## 14. Contact
-support@desidots.com. Groccy Technologies, Inc., doing business as DesiDots, 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA.
+support@desidots.com. DesiDots, 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA.

@@ -50,4 +50,4 @@ Follow our [Refund and Cancellation Policy](/refunds/), section 4. Keep the pack
 If some items cannot be supplied, you choose to ship the rest or cancel: see the [Refund and Cancellation Policy](/refunds/), section 2.
 
 ## 10. Contact
-support@desidots.com. Groccy Technologies, Inc., doing business as DesiDots, 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA.
+support@desidots.com. DesiDots, 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA.

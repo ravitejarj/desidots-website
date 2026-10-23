@@ -9,7 +9,7 @@ slug: privacy
 **DRAFT: have a lawyer review before publishing.**
 Effective date: November 2, 2026
 
-**Groccy Technologies, Inc., doing business as DesiDots** ("DesiDots", "we") runs the DesiDots app and website. This policy explains what we collect, why, who we share it with, how long we keep it, and your choices. Questions: privacy@desidots.com.
+**DesiDots** ("we") runs the DesiDots app and website. This policy explains what we collect, why, who we share it with, how long we keep it, and your choices. Questions: privacy@desidots.com.
 
 ## 1. What we collect
 **Information you give us**
@@ -75,4 +75,4 @@ Our service providers may process data in the United States and other countries.
 We will update this page when our practices change and show a new date at the top. For important changes we will tell you in the app.
 
 ## 10. Contact
-Groccy Technologies, Inc., doing business as DesiDots, 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA. Email: privacy@desidots.com.
+DesiDots, 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA. Email: privacy@desidots.com.

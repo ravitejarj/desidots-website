@@ -9,7 +9,7 @@ slug: terms
 **DRAFT: have a lawyer review before publishing.**
 Effective date: November 2, 2026
 
-These Terms are an agreement between you and **Groccy Technologies, Inc., doing business as DesiDots** ("DesiDots", "we", "us"), 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA. They apply to the DesiDots mobile app and website ("the Service"). By creating an account or placing an order you agree to them, together with our [Privacy Policy](/privacy/), [Refund and Cancellation Policy](/refunds/) and [Shipping Policy](/shipping/).
+These Terms are an agreement between you and **DesiDots** ("we", "us"), 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA. They apply to the DesiDots mobile app and website ("the Service"). By creating an account or placing an order you agree to them, together with our [Privacy Policy](/privacy/), [Refund and Cancellation Policy](/refunds/) and [Shipping Policy](/shipping/).
 
 ## 1. What DesiDots is
 DesiDots is an online marketplace for the South Asian community in the USA. It lists stores in the USA and stores in India, events and tickets, and professional directories (such as lawyers, tax professionals and wedding vendors).
@@ -69,4 +69,4 @@ These Terms are governed by the laws of the State of **Alabama**, USA, without r
 We may update these Terms. The date at the top shows the latest version. If a change is important we will tell you in the app. Continuing to use the Service after a change means you accept it. We may suspend or end your access if you break these Terms. You can stop using the Service at any time.
 
 ## 15. Contact
-Groccy Technologies, Inc., doing business as DesiDots, 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA. Email: support@desidots.com. Website: https://www.desidots.com.
+DesiDots, 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA. Email: support@desidots.com. Website: https://www.desidots.com.

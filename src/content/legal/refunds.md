@@ -52,4 +52,4 @@ If an import authority returns, destroys or holds an India order, or charges dut
 We may refuse refunds or close accounts where we find repeated claims that are untrue or abuse of this policy.
 
 ## 9. Contact
-support@desidots.com. Groccy Technologies, Inc., doing business as DesiDots, 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA.
+support@desidots.com. DesiDots, 101 S Burbank Dr, Unit C48, Montgomery, AL 36117, USA.
