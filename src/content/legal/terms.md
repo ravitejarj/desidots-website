@@ -48,7 +48,7 @@ DesiDots is an online marketplace for the South Asian community in the USA. It l
 - Problems with an order (not received, damaged, wrong item, missing items) must be reported within the times set out in the [Refund and Cancellation Policy](/refunds/). Keep packaging and take photos.
 
 ## 7. Cancellations and refunds
-Our [Refund and Cancellation Policy](/refunds/) is part of these Terms. In short: you can cancel before the Vendor ships; if a Vendor cannot supply all or part of an order you choose between shipping the rest or cancelling; the processing fee is refunded only where the whole order cannot be supplied or we cancel it. After an order has shipped it cannot be cancelled in the app.
+Our [Refund and Cancellation Policy](/refunds/) is part of these Terms. In short: you can cancel within 2 hours of paying, if the Vendor has not shipped yet, and after 8 days if it still has not shipped; if a Vendor cannot supply all or part of an order you choose between shipping the rest or cancelling; the processing fee is refunded only where the whole order cannot be supplied, the Vendor is more than 8 days late, or we cancel it. After the 2 hours, or once an order has shipped, it cannot be cancelled in the app, except as that policy says.
 
 ## 8. Event tickets
 - A ticket is a limited licence to attend one event, not property. Age limits, entry rules and event terms shown on the event page apply, and the organiser may refuse entry for breaking them.

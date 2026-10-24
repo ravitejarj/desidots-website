@@ -11,13 +11,16 @@ Effective date: November 2, 2026
 This policy is part of our [Terms and Conditions](/terms/). It explains when you can cancel, when you get money back, and how to report a problem. Please contact us **before** disputing a charge with your bank: we can usually fix things faster. Email support@desidots.com or use "Need help with this order?" on your order page. We reply within 2 business days.
 
 ## 1. Cancelling an order yourself
-You can cancel an order in the app (Orders, open the order, "Cancel order") **until the Vendor ships it**. After it has shipped it can no longer be cancelled in the app (see section 5).
+Many of our products are freshly prepared, and the Vendor starts preparing your order soon after you pay. So you can cancel a paid order in the app (Orders, open the order, "Cancel order") **within 2 hours of paying**, as long as the Vendor has not shipped it. After 2 hours it can no longer be cancelled in the app, except in the cases in the table below and in section 2. Once an order has shipped it cannot be cancelled (see section 5).
 
 | Situation | What you get back |
 |---|---|
 | You cancel an order you have **not paid** for | Nothing was charged. The payment page is closed. |
-| You cancel a **paid** order before it ships | The price of the items **and shipping**. The **processing fee** (2.9% + $0.30) is **not refunded**, because it is paid to our payment provider and cannot be recovered. |
+| You cancel a **paid** order **within 2 hours** of paying, before it ships | The price of the items **and shipping**. The **processing fee** (2.9% + $0.30) is **not refunded**, because it is paid to our payment provider and cannot be recovered. |
+| The Vendor has **not shipped your order 8 days after you paid** | You can cancel in the app for a **full refund, including the processing fee**. |
 | Event tickets | See section 7. |
+
+**If the Vendor is late.** Vendors must ship within **2 business days** (USA stores) or **5 business days** (India stores) of your payment. Once your order has shipped, delivery time depends on the carrier and customs. A slow carrier or a customs delay within the usual delivery time is not a reason for a refund (see section 4 if the parcel is lost or very late).
 
 ## 2. When a Vendor cannot supply your order
 - **The whole order cannot be supplied.** The order is cancelled and you receive a **full refund, including the processing fee**.
@@ -37,7 +40,7 @@ Report every problem in writing to support@desidots.com with your **order number
 |---|---|---|---|
 | **Not received** (USA stores) | 7 days after the estimated delivery date, and no later than 45 days after the order was shipped | Order number | We check tracking and ask the Vendor and carrier. If it is lost or cannot be found, the Vendor reships or you are refunded. |
 | **Not received** (India stores) | 14 days after the estimated delivery date, and no later than 60 days after the order was shipped | Order number | Same. Parcels held or returned by customs are covered in section 6. |
-| **Damaged, spoiled, wrong or defective item** | 7 days after delivery. **Food and other perishable items: 48 hours** | Clear photos of the item, the packaging and the shipping label | A replacement, or a refund of the affected item. If the mistake was the Vendor's, shipping for the item is refunded too. |
+| **Damaged, spoiled, wrong or defective item** | 7 days after delivery. **Food and other perishable items: 48 hours** | Clear photos of the item, the packaging and the shipping label | We review it with the Vendor. For items worth about **$15 or less** we refund the affected item. For higher-value items the Vendor sends a replacement or we refund, and we take your preference into account. If the mistake was the Vendor's, shipping for the item is refunded too. |
 | **Missing item** from a delivered parcel | 7 days after delivery | Photos of the parcel and contents | The missing item is sent or refunded. |
 
 A claim made after these times, or without the details above, may be declined. We decide claims fairly using tracking, photos, and information from the Vendor and the carrier.

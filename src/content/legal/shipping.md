@@ -27,9 +27,9 @@ Each order is packed and shipped by the **Vendor** (the seller) you bought from,
 | Where it ships from | Vendor ships within | Usual delivery after it ships |
 |---|---|---|
 | USA stores | 2 business days of your paid order | 3 to 7 days |
-| India stores | 3 business days of your paid order | 7 to 14 days |
+| India stores | 5 business days of your paid order | 7 to 14 days |
 
-Weather, holidays, carrier delays, customs and a Vendor's stock can add time. A delay does not by itself entitle you to compensation. If your order has not arrived after these times, follow section 8.
+Weather, holidays, carrier delays, customs and a Vendor's stock can add time. A delay does not by itself entitle you to compensation. If the Vendor has not shipped your order **8 days after you paid**, you can cancel it in the app for a full refund. If your order has not arrived after the delivery times above, follow section 8.
 
 ## 5. Tracking
 When your order ships you receive a notification with the carrier and tracking number, and your order page shows them. For some carriers the link opens the carrier's own page, for others a general tracking page (17TRACK). Tracking can take a day or more to update, especially for international parcels.
