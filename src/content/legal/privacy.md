@@ -19,12 +19,13 @@ Effective date: November 2, 2026
 | Contact details | Phone number | To deliver orders and contact you about them |
 | Profile details you choose to add | Gender, date of birth, community | To personalise events and offers. You can leave these out |
 | Delivery addresses | Name, phone, street, city, state, ZIP code, delivery notes | To deliver your orders and show stores and events near you |
-| Orders and tickets | What you bought, from which store, amounts, status, tracking details, cancellations and refunds | To run your orders and keep records |
-| Reviews and reports | Ratings, comments, messages and screenshots you send us | To show reviews and help you |
+| Orders and tickets | What you bought, from which store, amounts, status, shipping and tracking details, cancellations and refunds | To run your orders and keep records |
+| Parcel details from the seller | The carrier, tracking number, photos of the packed parcel and a note the seller adds when they ship your order | To show you where your order is and to keep proof that it was packed and shipped |
+| Reviews and problem reports | Ratings and comments; reports about a problem with an order (which order, what went wrong) and the photos or screenshots you add | To show reviews, solve problems with orders and fix bugs. Reports and their photos are seen by DesiDots only |
 | Contact form and emails | Your name, email address, optional order number and message | To answer you. The website form sends your message to our support mailbox |
 | Seller information (Vendors only) | Business details, tax and identity details needed for payouts (for example EIN, PAN, GSTIN, import-export code) and bank details | To verify and pay sellers. Full bank account numbers are stored separately with extra protection |
 
-**Collected automatically:** notification messages we create for your orders and payments (and whether you read them); if you allow push notifications, a private address for your phone (a push token) so we can send them; and technical information needed to keep you signed in and keep the Service secure (such as a session token). You can turn notifications off in the app or in your phone's settings.
+**Collected automatically:** if you send a bug report and keep "include device info" on, your app version, phone model, operating system, screen size and language (never passwords or login tokens); notification messages we create for your orders and payments (and whether you read them); if you allow push notifications, a private address for your phone (a push token) so we can send them; and technical information needed to keep you signed in and keep the Service secure (such as a session token). You can turn notifications off in the app or in your phone's settings.
 
 **What we do not collect:** your card number (Stripe collects it on its own secure page); your phone's GPS location (the app uses only the addresses you enter); advertising identifiers; and we use **no third-party advertising or analytics trackers**. The website sets no cookies.
 
@@ -41,7 +42,8 @@ We do **not sell** your personal information, and we do **not share** it for cro
 
 | Who | What and why |
 |---|---|
-| **The Vendor you order from** | The items ordered and your delivery name, address and phone number, so they can ship your order. Not your email or payment details. Vendors may use it only to fulfil your order. |
+| **The Vendor you order from** | The items ordered and your delivery name, address, phone number and delivery notes, so they can ship your order. Not your email or payment details. Vendors may use it only to fulfil your order and to deal with problems with it. |
+| **Carriers and customs** | The Vendor gives your delivery name, address and phone number to the carrier that delivers your parcel. For parcels from India these details, and a description of the contents, may also be given to customs authorities to clear the parcel. |
 | **Stripe** (payments) | Payment details you enter on Stripe's page, your email and the order amount, to take payments and make refunds. Stripe's own privacy policy applies. |
 | **Supabase** (hosting and database) | Stores the data described in this policy for us. |
 | **Zoho** (email) | Handles the email sent to and from our support and privacy mailboxes, including messages from the website contact form. |
@@ -60,12 +62,13 @@ We may share de-identified information that cannot reasonably be linked to you.
 - **Account information:** until you delete your account (section 7).
 - **Orders, payments and refunds:** **7 years** after the order, as tax, accounting and dispute rules require. When you delete your account these records are kept **without your name, phone number or street address** (only the city and state remain) and are no longer linked to you.
 - **Reviews:** deleted with your account.
-- **Support screenshots and profile photos:** deleted with your account.
+- **Support screenshots, problem reports and profile photos:** deleted with your account. The order itself is kept as described above.
+- **Parcel photos and tracking details** added by sellers are kept with the order record.
 - **Seller records:** while the seller account is active and for as long as tax and legal rules require afterwards.
 - **Backups** may keep deleted data for a short time before it is overwritten.
 
 ## 5. Security
-Data travels over encrypted connections. Access is limited by account and role: customers can see only their own data, and Vendors only the orders placed with them. Sensitive seller bank details are stored apart from other data, and every time an administrator views a full account number it is logged. No system is perfectly secure. If a breach affects you, we will tell you and the authorities as the law requires.
+Data travels over encrypted connections. Access is limited by account and role: customers can see only their own data, and Vendors only the orders placed with them (never your email address, payment details or other orders). Sensitive seller bank details are stored apart from other data, and every time an administrator views a full account number it is logged. No system is perfectly secure. If a breach affects you, we will tell you and the authorities as the law requires.
 
 ## 6. Your rights and choices
 Depending on where you live (for example California, Virginia, Colorado, Connecticut, Utah, Texas and other states), you may have the right to:
