@@ -33,14 +33,15 @@ DesiDots is an online marketplace for the South Asian community in the USA. It l
 ## 4. Prices, fees and taxes
 - Prices are in US dollars. The total you see at checkout is the total you pay.
 - At checkout you see the item price, any shipping fee, and a **card processing fee** (currently 2.9% plus $0.30 of the order amount). The processing fee covers the cost of taking your card payment.
-- **Taxes.** Prices do not include sales or use taxes unless they are shown. If we are required to collect sales tax on an order, it appears at checkout before you pay. **You are responsible for any import duties, customs charges or taxes charged by authorities or carriers on orders from India** (see the [Shipping Policy](/shipping/)).
+- **Taxes.** Prices do not include sales or use taxes unless they are shown. If we are required to collect sales tax on an order, it appears at checkout before you pay. Orders from India must be shipped by the Vendor **duty-paid**, so you should not be asked to pay import duties on delivery (see the [Shipping Policy](/shipping/)). If you are, contact us before you pay.
 - **India store prices.** The Vendor sets the price in Indian rupees. We show a US-dollar price calculated from that rupee price using an exchange rate that updates automatically, plus a markup and a small safety margin, rounded up. The dollar price can change from day to day. **The price you see when you place your order is the price you pay, and it does not change after the order is placed.**
 - We may change prices, fees and features at any time. A change does not affect an order you have already paid for.
 
 ## 5. Payment
 - Card payments are processed by **Stripe**. You authorise us and Stripe to charge the total to your card. We never see or store your full card number.
 - You must have the right to use the payment card. We may hold, delay or refuse an order or payment to protect against fraud.
-- **Disputing a charge.** If you have a problem with an order, please contact us first at support@desidots.com. We aim to fix it quickly. If you instead dispute the charge with your bank or card company, you agree that we may give them our records of your order, delivery and communications, and we may suspend your account while the dispute is open. Opening a dispute for a charge you know to be valid, or after you have received a refund, is a breach of these Terms.
+- **Your card statement.** Charges appear as **DESIDOTS**. If you do not recognise a charge, check your order history in the app or email us before contacting your bank.
+- **Disputing a charge.** If you have a problem with an order, please contact us first at support@desidots.com. We aim to fix it quickly, and we reply within 2 business days. If you instead dispute the charge with your bank or card company, you agree that we may give them our records of your order, delivery and communications (tracking, delivery confirmation, photos and messages), and we may suspend your account while the dispute is open. Opening a dispute for a charge you know to be valid, or for an order you were already refunded, is a breach of these Terms. **To the extent the law allows, if you do that we may recover the amount, any dispute fee our payment provider charges us and our reasonable costs, and close your account.**
 
 ## 6. Delivery, risk and problems
 - Vendors ship your order by carrier. Delivery dates are estimates, not promises. See the [Shipping Policy](/shipping/).
@@ -109,7 +110,7 @@ We may update these Terms. The effective date at the top shows the latest versio
 - **If this section is held invalid** as to a claim, that claim (and only that claim) goes to court under section 21.
 
 ## 21. Governing law and courts
-These Terms are governed by the laws of the **State of Alabama**, USA, and the Federal Arbitration Act, without regard to conflict-of-law rules. For disputes that are not sent to arbitration, you and DesiDots submit to the exclusive jurisdiction of the state and federal courts located in **Montgomery County, Alabama**, except that you may use small claims court in your own county. If you live outside the USA, your local mandatory consumer rights are not affected.
+These Terms are governed by the laws of the **State of Georgia**, USA, and the Federal Arbitration Act, without regard to conflict-of-law rules. For disputes that are not sent to arbitration, you and DesiDots submit to the exclusive jurisdiction of the state and federal courts located in **Cobb County, Georgia**, except that you may use small claims court in your own county. If you live outside the USA, your local mandatory consumer rights are not affected.
 
 ## 22. General terms
 - **Entire agreement.** These Terms, the policies they link to, and any specific terms shown at checkout are the whole agreement between you and us about the Service.

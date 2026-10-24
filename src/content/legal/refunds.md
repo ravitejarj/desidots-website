@@ -50,12 +50,12 @@ A claim made after these times, or without the details above, may be declined. W
 ## 5. What is not refunded
 - The **card processing fee**, except where section 2 or 3 says it is refunded, or an event is cancelled.
 - **Shipping** once an order has shipped, unless the item was lost, damaged or wrong because of the Vendor or carrier.
-- **Import duties, customs fees and taxes** you paid to authorities or carriers.
+- **Import duties, customs fees and taxes** you chose to pay on an order from an India store without contacting us first. (India stores ship duty-paid, so if you are asked to pay, email us before you pay and we will sort it out with the Vendor.)
 - Items you refuse or fail to collect, or that are returned because of a wrong or incomplete address.
 - Orders where we find the claim to be untrue, or the item was used, damaged by you, or misdescribed by you.
 
 ## 6. Orders from India: customs
-Parcels from India pass through US customs. Customs may inspect, delay, hold, return or destroy a parcel. If a parcel is **held or returned by customs because the item is restricted or the paperwork was wrong on the Vendor's side**, we work with the Vendor to refund or reship the order. If it is held or refused for a reason connected to you (for example you refuse to pay duties or the address is wrong), the order is not refunded. See the [Shipping Policy](/shipping/).
+Parcels from India pass through US customs. Customs may inspect, delay, hold, return or destroy a parcel. If a parcel is **held or returned by customs because the item is restricted or the paperwork was wrong on the Vendor's side**, we work with the Vendor to refund or reship the order. If it is held or refused for a reason connected to you (for example the address is wrong, or you refuse the parcel), the order is not refunded. See the [Shipping Policy](/shipping/).
 
 ## 7. Event tickets
 - **You** can ask for a refund up to **7 days before the event starts**. You get the ticket price back. The processing fee is not refunded.
@@ -70,7 +70,7 @@ Parcels from India pass through US customs. Customs may inspect, delay, hold, re
 - Refunds are in US dollars, for the amount you paid. We are not responsible for exchange rates or fees charged by your bank.
 
 ## 9. Chargebacks and abuse
-Please contact us first. If you instead dispute a charge with your bank, we give the bank our records. If a charge you disputed was valid, or you were already refunded, we may close your account and recover the amount. We may refuse refunds and close accounts where we find repeated untrue claims or abuse of this policy.
+Please contact us first. We reply within 2 business days and most problems are fixed quickly. If you instead dispute a charge with your bank, we give the bank our records (tracking, delivery confirmation, photos and messages). If a charge you disputed was valid, or you were already refunded, then to the extent the law allows we may close your account and recover the amount, any dispute fee our payment provider charges us, and our reasonable costs. We may refuse refunds and close accounts where we find repeated untrue claims or abuse of this policy.
 
 ## 10. Contact
 support@desidots.com.  

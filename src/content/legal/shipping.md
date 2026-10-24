@@ -39,8 +39,8 @@ When your order ships you receive a notification with the carrier and tracking n
 
 ## 7. Orders from India: customs, duties and food
 - Parcels from India pass through **US customs**. Customs may inspect, delay, hold, return, charge fees on, or destroy a parcel.
-- **Duties, taxes and fees.** Import duties, customs charges and taxes set by authorities or collected by carriers are **your responsibility as the buyer**. They are not included in the price. A carrier may ask you to pay before delivery. DesiDots does not set these amounts.
-- **Food, herbs, supplements and Ayurvedic or cosmetic products** are regulated (for example by the FDA and USDA). Some items are restricted or refused at the border. Vendors are responsible for sending only items that may lawfully be shipped and for correct labelling. Perishable food can spoil in transit; see the [Refund and Cancellation Policy](/refunds/).
+- **Duties, taxes and fees.** India stores must ship **duty-paid**: the Vendor pays the US import duties and customs fees, and they are included in the shipping price you see, so you should not be asked to pay anything on delivery. If a carrier or customs authority asks you to pay, or sends you a bill later, **do not pay it yet. Email us with the bill and your order number.** We deal with it with the Vendor and the carrier. DesiDots does not set duty amounts.
+- **Food, herbs, supplements and Ayurvedic or cosmetic products** are regulated (for example by the FDA and USDA). Some items are restricted or refused at the border. Vendors must be registered with the FDA where the law requires, file the required notices for each shipment, and send only items that may lawfully be shipped, with correct US labelling. Perishable food can spoil in transit; see the [Refund and Cancellation Policy](/refunds/).
 - If customs holds or refuses a parcel because of a problem on the Vendor's side, see [section 6 of the Refund and Cancellation Policy](/refunds/).
 
 ## 8. Orders that do not arrive
