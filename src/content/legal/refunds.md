@@ -16,7 +16,7 @@ Many of our products are freshly prepared, and the Vendor starts preparing your 
 | Situation | What you get back |
 |---|---|
 | You cancel an order you have **not paid** for | Nothing was charged. The payment page is closed. |
-| You cancel a **paid** order **within 2 hours** of paying, before it ships | The price of the items **and shipping**. The **processing fee** (2.9% + $0.30) is **not refunded**, because it is paid to our payment provider and cannot be recovered. |
+| You cancel a **paid** order **within 2 hours** of paying, before it ships | The price of the items **and shipping**. If the store charged a **processing fee** (2.9% + $0.30), it is **not refunded**, because it is paid to our payment provider and cannot be recovered. |
 | The Vendor has **not shipped your order 8 days after you paid** | You can cancel in the app for a **full refund, including the processing fee**. |
 | Event tickets | See section 7. |
 
@@ -25,7 +25,7 @@ Many of our products are freshly prepared, and the Vendor starts preparing your 
 ## 2. When a Vendor cannot supply your order
 - **The whole order cannot be supplied.** The order is cancelled and you receive a **full refund, including the processing fee**.
 - **Only some items cannot be supplied.** We tell you in the app. You choose:
-  1. **Ship the rest.** You are refunded the price of the missing items. Shipping and the processing fee stay, because the rest of your order is still shipped.
+  1. **Ship the rest.** You are refunded the price of the missing items. Shipping (and the processing fee, if one was charged) stay, because the rest of your order is still shipped.
   2. **Cancel the whole order.** You are refunded **everything, including the processing fee.**
 
   If you do not answer within **24 hours**, we ship the rest and refund the missing items. You can cancel the whole order at any time before that.

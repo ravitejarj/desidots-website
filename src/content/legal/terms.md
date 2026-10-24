@@ -32,9 +32,9 @@ DesiDots is an online marketplace for the South Asian community in the USA. It l
 
 ## 4. Prices, fees and taxes
 - Prices are in US dollars. The total you see at checkout is the total you pay.
-- At checkout you see the item price, any shipping fee, and a **card processing fee** (currently 2.9% plus $0.30 of the order amount). The processing fee covers the cost of taking your card payment.
+- At checkout you see the item price, the shipping, and, at stores that charge it, a **card processing fee** (currently 2.9% plus $0.30 of the order amount). The processing fee covers the cost of taking your card payment. Shipping is set by the Vendor, usually by the weight of your order and your address, and is shown before you pay.
 - **Taxes.** Prices do not include sales or use taxes unless they are shown. If we are required to collect sales tax on an order, it appears at checkout before you pay. Orders from India must be shipped by the Vendor **duty-paid**, so you should not be asked to pay import duties on delivery (see the [Shipping Policy](/shipping/)). If you are, contact us before you pay.
-- **India store prices.** The Vendor sets the price in Indian rupees. We show a US-dollar price calculated from that rupee price using an exchange rate that updates automatically, plus a markup and a small safety margin, rounded up. The dollar price can change from day to day. **The price you see when you place your order is the price you pay, and it does not change after the order is placed.**
+- **Store prices.** The Vendor sets the price in US dollars. **The price and shipping you see when you place your order is what you pay, and it does not change after the order is placed.** A store may have a minimum order, which the cart shows.
 - We may change prices, fees and features at any time. A change does not affect an order you have already paid for.
 
 ## 5. Payment
