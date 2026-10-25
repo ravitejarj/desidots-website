@@ -18,7 +18,7 @@ Many of our products are freshly prepared, and the Vendor starts preparing your 
 | You cancel an order you have **not paid** for | Nothing was charged. The payment page is closed. |
 | You cancel a **paid** order **within 2 hours** of paying, before it ships | A full refund: the price of the items **and shipping**. |
 | The Vendor has **not shipped your order 8 days after you paid** | You can cancel in the app for a **full refund**. |
-| Event tickets | See section 7. |
+| Event tickets | Not refundable once bought, unless the organiser cancels the event. See section 7. |
 
 **If the Vendor is late.** Vendors must ship within **2 business days** (USA stores) or **5 business days** (India stores) of your payment. Once your order has shipped, delivery time depends on the carrier and customs. A slow carrier or a customs delay within the usual delivery time is not a reason for a refund (see section 4 if the parcel is lost or very late).
 
@@ -57,10 +57,9 @@ A claim made after these times, or without the details above, may be declined. W
 Parcels from India pass through US customs. Customs may inspect, delay, hold, return or destroy a parcel. If a parcel is **held or returned by customs because the item is restricted or the paperwork was wrong on the Vendor's side**, we work with the Vendor to refund or reship the order. If it is held or refused for a reason connected to you (for example the address is wrong, or you refuse the parcel), the order is not refunded. See the [Shipping Policy](/shipping/).
 
 ## 7. Event tickets
-- **You** can ask for a refund up to **7 days before the event starts**. You get the ticket price back.
-- **Less than 7 days before the event, or after it starts**, tickets are not refunded, unless the event is cancelled.
-- **If the organiser cancels the event**, you are refunded the full ticket price. If the event is postponed, your ticket normally stays valid for the new date; if you cannot attend the new date, contact us within 14 days of the announcement.
-- Tickets cannot be cancelled in the app. Email support@desidots.com with your order number.
+- **Tickets cannot be cancelled or refunded once bought**, unless the event is cancelled. Please check the date, time, place and ticket type before you pay.
+- **If the organiser cancels the event**, you are refunded the full ticket price, with no need to ask. If the event is postponed, your ticket normally stays valid for the new date; if you cannot attend the new date, contact us within 14 days of the announcement.
+- If the organiser changes the event in a way that makes it very different (for example a new city), email support@desidots.com with your order number and we will look at it. Tickets cannot be cancelled in the app.
 
 ## 8. How and when refunds are paid
 - Refunds go **back to the card you paid with**. We cannot refund to a different card or account.

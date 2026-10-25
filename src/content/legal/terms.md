@@ -53,7 +53,7 @@ Our [Refund and Cancellation Policy](/refunds/) is part of these Terms. In short
 
 ## 8. Event tickets
 - A ticket is a limited licence to attend one event, not property. Age limits, entry rules and event terms shown on the event page apply, and the organiser may refuse entry for breaking them.
-- Tickets cannot be cancelled in the app. Refunds are governed by the [Refund and Cancellation Policy](/refunds/). If an event is cancelled by its organiser, you are refunded the full ticket price. If it is postponed, your ticket normally stays valid for the new date.
+- Tickets cannot be cancelled or refunded once bought, unless the event is cancelled by its organiser. Refunds are governed by the [Refund and Cancellation Policy](/refunds/). If an event is cancelled by its organiser, you are refunded the full ticket price. If it is postponed, your ticket normally stays valid for the new date.
 - Do not resell tickets for more than their price, or copy them.
 
 ## 9. Reviews and content you post
