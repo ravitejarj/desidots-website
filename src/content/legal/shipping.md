@@ -22,7 +22,7 @@ Each order is packed and shipped by the **Vendor** (the seller) you bought from,
 - **Shipping is set by each Vendor.** Many stores charge by the weight of your order and your delivery address. The shipping amount is worked out at checkout and shown to you before you pay. It is the Vendor's own shipping price, and it can include import duties for orders from India (see section 7).
 - **Minimum order.** Some stores have a minimum order. The cart tells you if you are below it.
 - **Too heavy for one parcel.** If an order is above a store's heaviest parcel, the app asks you to split it into two orders.
-- **Card processing fee.** At some stores a **card processing fee** (2.9% + $0.30) is added at checkout. If a store charges it, you see it as its own line before you pay. It is not a shipping charge.
+- **No card or handling fee.** We do not add a card processing fee or a handling fee at checkout. You pay the items, the shipping and nothing else.
 - The price shown when you place an order is the price you pay. It does not change afterwards.
 
 ## 4. How long it takes

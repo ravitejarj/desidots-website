@@ -32,7 +32,7 @@ DesiDots is an online marketplace for the South Asian community in the USA. It l
 
 ## 4. Prices, fees and taxes
 - Prices are in US dollars. The total you see at checkout is the total you pay.
-- At checkout you see the item price, the shipping, and, at stores that charge it, a **card processing fee** (currently 2.9% plus $0.30 of the order amount). The processing fee covers the cost of taking your card payment. Shipping is set by the Vendor, usually by the weight of your order and your address, and is shown before you pay.
+- At checkout you see the item price, the shipping and the total. **We add no card processing fee or handling fee.** Shipping is set by the Vendor, usually by the weight of your order and your address, and is shown before you pay.
 - **Taxes.** Prices do not include sales or use taxes unless they are shown. If we are required to collect sales tax on an order, it appears at checkout before you pay. Orders from India must be shipped by the Vendor **duty-paid**, so you should not be asked to pay import duties on delivery (see the [Shipping Policy](/shipping/)). If you are, contact us before you pay.
 - **Store prices.** The Vendor sets the price in US dollars. **The price and shipping you see when you place your order is what you pay, and it does not change after the order is placed.** A store may have a minimum order, which the cart shows.
 - We may change prices, fees and features at any time. A change does not affect an order you have already paid for.
@@ -49,11 +49,11 @@ DesiDots is an online marketplace for the South Asian community in the USA. It l
 - Problems with an order (not received, damaged, wrong item, missing items) must be reported within the times set out in the [Refund and Cancellation Policy](/refunds/). Keep packaging and take photos.
 
 ## 7. Cancellations and refunds
-Our [Refund and Cancellation Policy](/refunds/) is part of these Terms. In short: you can cancel within 2 hours of paying, if the Vendor has not shipped yet, and after 8 days if it still has not shipped; if a Vendor cannot supply all or part of an order you choose between shipping the rest or cancelling; the processing fee is refunded only where the whole order cannot be supplied, the Vendor is more than 8 days late, or we cancel it. After the 2 hours, or once an order has shipped, it cannot be cancelled in the app, except as that policy says.
+Our [Refund and Cancellation Policy](/refunds/) is part of these Terms. In short: you can cancel within 2 hours of paying, if the Vendor has not shipped yet, and after 8 days if it still has not shipped; if a Vendor cannot supply all or part of an order you choose between shipping the rest or cancelling. After the 2 hours, or once an order has shipped, it cannot be cancelled in the app, except as that policy says.
 
 ## 8. Event tickets
 - A ticket is a limited licence to attend one event, not property. Age limits, entry rules and event terms shown on the event page apply, and the organiser may refuse entry for breaking them.
-- Tickets cannot be cancelled in the app. Refunds are governed by the [Refund and Cancellation Policy](/refunds/). If an event is cancelled by its organiser, you are refunded the ticket price and the processing fee. If it is postponed, your ticket normally stays valid for the new date.
+- Tickets cannot be cancelled in the app. Refunds are governed by the [Refund and Cancellation Policy](/refunds/). If an event is cancelled by its organiser, you are refunded the full ticket price. If it is postponed, your ticket normally stays valid for the new date.
 - Do not resell tickets for more than their price, or copy them.
 
 ## 9. Reviews and content you post

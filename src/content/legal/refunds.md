@@ -16,17 +16,17 @@ Many of our products are freshly prepared, and the Vendor starts preparing your 
 | Situation | What you get back |
 |---|---|
 | You cancel an order you have **not paid** for | Nothing was charged. The payment page is closed. |
-| You cancel a **paid** order **within 2 hours** of paying, before it ships | The price of the items **and shipping**. If the store charged a **processing fee** (2.9% + $0.30), it is **not refunded**, because it is paid to our payment provider and cannot be recovered. |
-| The Vendor has **not shipped your order 8 days after you paid** | You can cancel in the app for a **full refund, including the processing fee**. |
+| You cancel a **paid** order **within 2 hours** of paying, before it ships | A full refund: the price of the items **and shipping**. |
+| The Vendor has **not shipped your order 8 days after you paid** | You can cancel in the app for a **full refund**. |
 | Event tickets | See section 7. |
 
 **If the Vendor is late.** Vendors must ship within **2 business days** (USA stores) or **5 business days** (India stores) of your payment. Once your order has shipped, delivery time depends on the carrier and customs. A slow carrier or a customs delay within the usual delivery time is not a reason for a refund (see section 4 if the parcel is lost or very late).
 
 ## 2. When a Vendor cannot supply your order
-- **The whole order cannot be supplied.** The order is cancelled and you receive a **full refund, including the processing fee**.
+- **The whole order cannot be supplied.** The order is cancelled and you receive a **full refund**.
 - **Only some items cannot be supplied.** We tell you in the app. You choose:
-  1. **Ship the rest.** You are refunded the price of the missing items. Shipping (and the processing fee, if one was charged) stay, because the rest of your order is still shipped.
-  2. **Cancel the whole order.** You are refunded **everything, including the processing fee.**
+  1. **Ship the rest.** You are refunded the price of the missing items. Shipping stays, because the rest of your order is still shipped.
+  2. **Cancel the whole order.** You are refunded **everything.**
 
   If you do not answer within **24 hours**, we ship the rest and refund the missing items. You can cancel the whole order at any time before that.
 
@@ -48,7 +48,6 @@ A claim made after these times, or without the details above, may be declined. W
 **Changing your mind after shipping.** Orders cannot be returned or refunded only because you changed your mind, unless the Vendor's own page says it accepts returns. **Perishable food, opened items, personalised items and items made to order cannot be returned.** If a return is agreed in writing, it must be approved by us first, and the return shipping cost is yours unless the item was wrong or damaged.
 
 ## 5. What is not refunded
-- The **card processing fee**, except where section 2 or 3 says it is refunded, or an event is cancelled.
 - **Shipping** once an order has shipped, unless the item was lost, damaged or wrong because of the Vendor or carrier.
 - **Import duties, customs fees and taxes** you chose to pay on an order from an India store without contacting us first. (India stores ship duty-paid, so if you are asked to pay, email us before you pay and we will sort it out with the Vendor.)
 - Items you refuse or fail to collect, or that are returned because of a wrong or incomplete address.
@@ -58,9 +57,9 @@ A claim made after these times, or without the details above, may be declined. W
 Parcels from India pass through US customs. Customs may inspect, delay, hold, return or destroy a parcel. If a parcel is **held or returned by customs because the item is restricted or the paperwork was wrong on the Vendor's side**, we work with the Vendor to refund or reship the order. If it is held or refused for a reason connected to you (for example the address is wrong, or you refuse the parcel), the order is not refunded. See the [Shipping Policy](/shipping/).
 
 ## 7. Event tickets
-- **You** can ask for a refund up to **7 days before the event starts**. You get the ticket price back. The processing fee is not refunded.
+- **You** can ask for a refund up to **7 days before the event starts**. You get the ticket price back.
 - **Less than 7 days before the event, or after it starts**, tickets are not refunded, unless the event is cancelled.
-- **If the organiser cancels the event**, you are refunded the ticket price **and** the processing fee. If the event is postponed, your ticket normally stays valid for the new date; if you cannot attend the new date, contact us within 14 days of the announcement.
+- **If the organiser cancels the event**, you are refunded the full ticket price. If the event is postponed, your ticket normally stays valid for the new date; if you cannot attend the new date, contact us within 14 days of the announcement.
 - Tickets cannot be cancelled in the app. Email support@desidots.com with your order number.
 
 ## 8. How and when refunds are paid
