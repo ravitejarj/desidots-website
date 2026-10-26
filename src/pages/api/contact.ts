@@ -85,7 +85,7 @@ export const POST: APIRoute = async ({ request, clientAddress }) => {
     console.error('Contact form: sending failed', error);
     return reply(wantsJson, false, 'We could not send your message. Please email support@desidots.com.', 502);
   }
-  return reply(wantsJson, true, 'Thank you. Your message was sent. We reply within 2 business days.');
+  return reply(wantsJson, true, 'Thank you. Your message was sent. We reply within 24 hours.');
 };
 
 // any other method: not allowed

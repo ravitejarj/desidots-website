@@ -8,7 +8,7 @@ slug: refunds
 
 Effective date: November 2, 2026
 
-This policy is part of our [Terms and Conditions](/terms/). It explains when you can cancel, when you get money back, and how to report a problem. Please contact us **before** disputing a charge with your bank: we can usually fix things faster. Email support@desidots.com or use "Need help with this order?" on your order page. We reply within 2 business days.
+This policy is part of our [Terms and Conditions](/terms/). It explains when you can cancel, when you get money back, and how to report a problem. Please contact us **before** disputing a charge with your bank: we can usually fix things faster. Email support@desidots.com or use "Need help with this order?" on your order page. We reply within 24 hours.
 
 ## 1. Cancelling an order yourself
 Many of our products are freshly prepared, and the Vendor starts preparing your order soon after you pay. So you can cancel a paid order in the app (Orders, open the order, "Cancel order") **within 2 hours of paying**, as long as the Vendor has not shipped it. After 2 hours it can no longer be cancelled in the app, except in the cases in the table below and in section 2. Once an order has shipped it cannot be cancelled (see section 5).
@@ -68,7 +68,7 @@ Parcels from India pass through US customs. Customs may inspect, delay, hold, re
 - Refunds are in US dollars, for the amount you paid. We are not responsible for exchange rates or fees charged by your bank.
 
 ## 9. Chargebacks and abuse
-Please contact us first. We reply within 2 business days and most problems are fixed quickly. If you instead dispute a charge with your bank, we give the bank our records (tracking, delivery confirmation, photos and messages). If a charge you disputed was valid, or you were already refunded, then to the extent the law allows we may close your account and recover the amount, any dispute fee our payment provider charges us, and our reasonable costs. We may refuse refunds and close accounts where we find repeated untrue claims or abuse of this policy.
+Please contact us first. We reply within 24 hours and most problems are fixed quickly. If you instead dispute a charge with your bank, we give the bank our records (tracking, delivery confirmation, photos and messages). If a charge you disputed was valid, or you were already refunded, then to the extent the law allows we may close your account and recover the amount, any dispute fee our payment provider charges us, and our reasonable costs. We may refuse refunds and close accounts where we find repeated untrue claims or abuse of this policy.
 
 ## 10. Contact
 support@desidots.com.  
